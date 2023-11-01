@@ -3,17 +3,15 @@
 		<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
 		
 			<h1 class="text-5xl font-bold leading-3 sm:text-6xl">We have the
-				<span class="text-[#f9d900]">tools</span> to support your <span class="text-[#f9d900]">Human Resource</span> functions.
+				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">Human Resource</span> functions.
 			</h1>
 			<p class="mt-6 mb-8 text-lg sm:mb-12 text-gray-300">Leverage your Human Resource
 				<br class="hidden md:inline lg:hidden">through us.
 			</p>
 			<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#f9d900] text-gray-900">Contact Us</a>
-				<!-- <a rel="noopener noreferrer" href="!#" class="px-8 py-3 text-lg font-semibold border rounded border-gray-100">Malesuada</a> -->
+				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
 			</div>
 		</div>
-		<!-- <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"> -->
 		<div class="flex items-center p-24">
 			<img src="tools.jpg" alt="" class="transform rotate-90 object-contain h-72 w-11/12 lg:h-full" loading="lazy">
 		</div>
@@ -153,24 +151,24 @@
 	</div>
 </section>
 
-<section id="faqs" class="bg-gray-800 text-gray-100 min-h-screen">
+<section id="faqs" class="bg-gray-800 text-gray-300 min-h-screen">
 	<div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
 		<h2 class="mb-12 text-4xl font-bold leading-3 text-center sm:text-5xl">Frequently Asked Questions</h2>
-		<div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+		<div class="flex flex-col lg:px-32 gap-y-3">
 			<details>
-				<summary class="p-4 outline-none cursor-pointer mb-4 bg-[#fbbf24] text-gray-600 font-bold rounded-lg hover:opacity-90">Optio maiores eligendi molestiae totam dolores similique?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 cursor-pointer mb-4 text-gray-300 font-bold rounded-lg hover:opacity-90">Optio maiores eligendi molestiae totam dolores similique?</summary>
 				<div class="px-6 pb-6">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
 				</div>
 			</details>
 			<details>
-				<summary class="p-4 outline-none cursor-pointer mb-4 bg-[#fbbf24] text-gray-600 font-bold rounded-lg">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
 				<div class="px-6 pb-6">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
 				</div>
 			</details>
 			<details>
-				<summary class="p-4 outline-none cursor-pointer mb-4 bg-[#fbbf24] text-gray-600 font-bold rounded-lg">Magni reprehenderit possimus debitis?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">Magni reprehenderit possimus debitis?</summary>
 				<div class="px-6 pb-6 space-y-2">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
 					<p>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
@@ -267,7 +265,7 @@
 					</div>
 					<div class="mt-4">
 						<h4 class="text-lg text-gray-500 font-semibold">Martiana dialan</h4>
-						<p class="text-[#F9D701]">Product Designer</p>
+						<p class="text-[#F9D900]">Product Designer</p>
 					</div>
 				</li>
 				<li>
@@ -280,7 +278,7 @@
 					</div>
 					<div class="mt-4">
 						<h4 class="text-lg text-gray-500 font-semibold">Martiana dialan</h4>
-						<p class="text-[#F9D701]">Product Designer</p>
+						<p class="text-[#F9D900]">Product Designer</p>
 					</div>
 				</li>
 			</ul>
@@ -311,7 +309,7 @@
                     </p>
                     <ul class="mb-6 md:mb-0">
                         <li class="flex">
-                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#f9d900] text-gray-900">
+                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#fbbf24] text-gray-900">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6">
@@ -324,12 +322,13 @@
                             <div class="ml-4 mb-4">
                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
                                 </h3>
-                                <p class="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                <p class="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                                <p class="text-gray-600 dark:text-slate-400">P. O. Box 74715</p>
+                                <p class="text-gray-600 dark:text-slate-400">City Square</p>
+                                <p class="text-gray-600 dark:text-slate-400">Nairobi</p>
                             </div>
                         </li>
                         <li class="flex">
-                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#f9d900] text-gray-900">
+                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#fbbf24] text-gray-900">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6">
@@ -343,12 +342,12 @@
                             <div class="ml-4 mb-4">
                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                 </h3>
-                                <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                <p class="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                <p class="text-gray-600 dark:text-slate-400">Mobile: +254 721 544 724</p>
+                                <p class="text-gray-600 dark:text-slate-400">Email: info@loka-advisory.com</p>
                             </div>
                         </li>
                         <li class="flex">
-                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#f9d900] text-gray-900">
+                            <div class="flex h-10 w-10 items-center justify-center rounded bg-[#fbbf24] text-gray-900">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6">
@@ -360,75 +359,49 @@
                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
                                     hours</h3>
                                 <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                                <p class="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                                <p class="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: Closed</p>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
+                <div class="card h-fit max-w-6xl p-5 lg:p-12" id="form">
                     <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
                     <form id="contactForm">
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="name" class="pb-1 text-xs uppercase tracking-wider">Name</label>
-									<input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="name">
+									<input type="text" id="name" autocomplete="given-name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="name">
                                 </div>
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="email" class="pb-1 text-xs uppercase tracking-wider">Email</label>
-									<input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="email">
+									<input type="email" id="email" autocomplete="email" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="email">
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <label for="message" class="pb-1 text-xs uppercase tracking-wider">Message</label>
-								<textarea id="message" name="message" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0"></textarea>
+								<textarea id="message" name="message" cols="30" rows="5" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0"></textarea>
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="w-full bg-[#f9d900] text-gray-900 font-bold px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                            <button type="submit" class="w-full bg-[#fbbf24] text-gray-900 font-bold px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-	<footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+	<footer class="mt-auto w-full max-w-[85rem] py-2 px-4 sm:px-6 lg:px-8 mx-auto">
 		<!-- Grid -->
-		<div class="text-center">
-			<div>
-			<a class="flex-none text-xl font-semibold text-black dark:text-white" href="#!" aria-label="Brand">Brand</a>
-			</div>
-			<!-- End Col -->
-
-			<div class="mt-3">
-			<p class="text-gray-500">We're part of the <a class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#!">Htmlstream</a> family.</p>
-			<p class="text-gray-500">© Preline. 2022 Htmlstream. All rights reserved.</p>
-			</div>
-
-			<!-- Social Brands -->
-			<div class="mt-3 space-x-2">
-			<a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#!">
-				<svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-				<path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
-				</svg>
-			</a>
-			<a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#!">
-				<svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-				<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-				</svg>
-			</a>
-			<a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#!">
-				<svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-				<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-				</svg>
-			</a>
-			<a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#!">
-				<svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-				<path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
-				</svg>
-			</a>
-			</div>
-			<!-- End Social Brands -->
+		<hr class="border-slate-200 mb-2">
+		<div class="flex flex-row justify-between">
+			
+			<p class="text-gray-500">© Loka Advisory Services Ltd, <span id="copyright">{ thisYear }</span>. All rights reserved.</p>
+			<p class="text-gray-500">
+				<a href="https://polo-solutions.com" target="_blank">
+					Designed by Polo Solutions Ltd
+				</a>
+			</p>
 		</div>
 		<!-- End Grid -->
 	</footer>
@@ -448,3 +421,7 @@
 		}
 	}
 </style>
+
+<script>
+	let thisYear = new Date().getFullYear().toString()
+</script>

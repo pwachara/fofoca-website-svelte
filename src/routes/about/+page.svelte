@@ -85,3 +85,12 @@
             </div>
         </div>
 </section>
+<section id="one" class="flex items-center justify-center min-h-screen bg-white">
+            <div class="py-14">
+            <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
+                <h3 class="font-semibold text-sm text-gray-500 text-center">
+                    ONE ONLY!
+                </h3>
+            </div>
+        </div>
+</section>
