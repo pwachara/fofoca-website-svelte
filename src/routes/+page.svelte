@@ -5,7 +5,7 @@
 			<h1 class="text-5xl font-bold leading-3 sm:text-6xl">We have the
 				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">Human Resource</span> functions.
 			</h1>
-			<p class="mt-6 mb-8 text-lg sm:mb-12 text-gray-300">Leverage your Human Resource
+			<p class="mt-6 mb-8 text-lg sm:mb-12 text-gray-300">Recruit. Train. Retain.
 				<br class="hidden md:inline lg:hidden">through us.
 			</p>
 			<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">

@@ -39,7 +39,7 @@
 						<a class:active={ $page.url.hash === "#contact"} href="/#contact" aria-label="contact">Contact Us</a>
 					</li>
 					<li class=" hover:text-[#fbbf24] hover:cursor-pointer">
-						<a id="about" class:active={ $page.url.hash === "/about"} href="/about#clients" aria-label="about">About</a>
+						<a class:active={ $page.url.hash === "/about#clients"} href="/about#clients" aria-label="about">About</a>
 					</li>
 				</ul>
 				<a
@@ -65,13 +65,5 @@
 		text-decoration-color: #fbbf24;
 		text-underline-position: under;
 		-ms-text-underline-position: under;
-	}
-
-	#about:active::after {
-		content: '';
-		width: 12px;
-		height: 12px;
-		background-color: yellow;
-		border-radius: 50%;
 	}
 </style>
