@@ -1,7 +1,3 @@
-<script>
-    let idx=0
-</script>
-
 <div class="flex flex-wrap">
   <div class="border-r border-gray-200 dark:border-gray-700">
     <nav class="flex flex-col space-y-2" aria-label="Tabs">
