@@ -52,7 +52,7 @@
             </div>
             <div class="mt-12 md:mt-0">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img src="/dashboard.svg" alt="About Us Image" class="object-cover rounded-lg shadow-md" />
+                <!-- <img src="/dashboard.svg" alt="About Us Image" class="object-cover rounded-lg shadow-md" /> -->
             </div>
         </div>
     </div>
@@ -74,7 +74,7 @@
                         <li class="flex-none">
                             <img src="https://www.apni.net/wp-content/uploads/2020/07/APNI-header-82.png"
                                  class="w-48 h-12"
-                                 alt="Africa AI logo" />
+                                 alt="Africa Plant Nutrition logo" />
                         </li>
                     </ul>
                 </div>
