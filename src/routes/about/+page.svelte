@@ -43,13 +43,9 @@
                     Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
                     malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.</p>
                 <div class="mt-8">
-                    <!-- <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Learn more about us
-                        <span class="ml-2">&#8594;</span></a> -->
                 </div>
             </div>
             <div class="mt-12 md:mt-0">
-                <!-- svelte-ignore a11y-img-redundant-alt -->
-                <!-- <img src="/dashboard.svg" alt="About Us Image" class="object-cover rounded-lg shadow-md" /> -->
             </div>
         </div>
     </div>
