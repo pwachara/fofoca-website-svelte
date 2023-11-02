@@ -5,8 +5,10 @@
 			<h1 class="text-5xl font-bold leading-3 sm:text-6xl">We have the
 				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">Human Resource</span> functions.
 			</h1>
-			<p class="mt-6 mb-8 text-lg sm:mb-12 text-gray-300">Recruit. Train. Retain.
-				<br class="hidden md:inline lg:hidden">through us.
+			<p class="mt-6 mb-8 text-3xl font-bold sm:mb-12 text-gray-600">
+				Recruit<span class="text-5xl text-[#fbbf24]">.</span>
+				Train<span class="text-5xl text-[#fbbf24]">.</span>
+				Retain<span class="text-5xl text-[#fbbf24]">.</span>
 			</p>
 			<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
@@ -22,7 +24,7 @@
 	<div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="max-w-3xl mx-auto text-center">
 			<h2 class="text-3xl font-extrabold sm:text-4xl">All the services you want</h2>
-			<p class="mt-4 text-lg text-gray-400">Pellentesque viverra, leo id euismod laoreet, nunc risus molestie orci, vel faucibus quam justo id mauris.</p>
+			<p class="mt-4 text-lg text-gray-400">Not only do we provide advice, but also aid in the implementation of the solutions proposed by us.</p>
 		</div>
 		<dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
 			<div class="flex">
@@ -30,8 +32,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Quisque at urna</dt>
-					<dd class="mt-2 text-gray-400">Vivamus ultricies bibendum tortor, molestie imperdiet justo cursus eu. Donec quis arcu magna. Integer tempor egestas dolor.</dd>
+					<dt class="text-lg font-medium">We build HR infrastructures for start ups</dt>
+					<dd class="mt-2 text-gray-400">We can effectively support your business needs from day 1.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -39,8 +41,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Quisque eu dui lacinia</dt>
-					<dd class="mt-2 text-gray-400">Quisque ultricies volutpat sapien nec varius. Sed sit amet justo vestibulum, efficitur risus quis, gravida libero.</dd>
+					<dt class="text-lg font-medium">HR Policy Design</dt>
+					<dd class="mt-2 text-gray-400">We design policies that are in alignment with your company's culture and in conformity with the country's employment and labour laws.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -48,8 +50,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Mauris dignissim</dt>
-					<dd class="mt-2 text-gray-400">Phasellus nec molestie arcu. Proin dictum, lorem mollis rutrum efficitur, lectus velit pharetra elit, et dictum purus nibh auctor velit.</dd>
+					<dt class="text-lg font-medium">Employee satisfaction survey</dt>
+					<dd class="mt-2 text-gray-400">Building a better work environment begins with communicating with employees and understanding their needs.  As an impartial third party, we can gather candid feedback from your employees through one-on-one interviews and online/paper employee surveys.  Further, based on the findings we will provide appropriate recommendations.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -57,8 +59,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Proin nulla eros</dt>
-					<dd class="mt-2 text-gray-400">Sed ornare ultricies gravida. Morbi egestas dolor turpis, ornare laoreet est vehicula non.</dd>
+					<dt class="text-lg font-medium">Recruitment</dt>
+					<dd class="mt-2 text-gray-400">We are experienced in sourcing and recruiting qualified candidates who are a good fit for your company.  We have a rich database of both white and blue collar workers.  We also provide psychometric assessments at an affordable fee.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -66,8 +68,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Proin dictum</dt>
-					<dd class="mt-2 text-gray-400">Lorem mollis rutrum efficitur, lectus velit pharetra elit, et dictum purus nibh auctor velit.</dd>
+					<dt class="text-lg font-medium">Training and skills development</dt>
+					<dd class="mt-2 text-gray-400">We conduct skills audits and inform management on the skills gaps discovered via the audit and identify trainings to bridge those gaps.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -75,8 +77,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Quisque eu dui lacinia</dt>
-					<dd class="mt-2 text-gray-400">Cras a mauris tincidunt, scelerisque justo sit amet, hendrerit est. Fusce venenatis diam fringilla metus convallis, at dapibus enim congue.</dd>
+					<dt class="text-lg font-medium">Work permit processing</dt>
+					<dd class="mt-2 text-gray-400">We assist companies acquire special passes and work permits for their expatriate staff.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -84,8 +86,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Cras vel bibendum tellus</dt>
-					<dd class="mt-2 text-gray-400">Curabitur molestie neque ac massa pulvinar, nec sollicitudin nunc consequat. Donec mattis orci eros, vitae porttitor risus pretium eget.</dd>
+					<dt class="text-lg font-medium">Labour Outsourcing</dt>
+					<dd class="mt-2 text-gray-400">We can manage all your blue collar workers and non-critical white collar workers directly under our company.</dd>
 				</div>
 			</div>
 			<div class="flex">
@@ -93,8 +95,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Dignissim magna</dt>
-					<dd class="mt-2 text-gray-400">Cras ac lectus erat. Curabitur condimentum luctus nisi, non lacinia ipsum.</dd>
+					<dt class="text-lg font-medium">Collective Bargaining Agreements</dt>
+					<dd class="mt-2 text-gray-400">We will help you negotiate all your collective bargaining agreements and foster cordial relations with the Union shop stewards and Union Officials.</dd>
 				</div>
 			</div>
 		</dl>
@@ -243,42 +245,42 @@
 	</div>
 </section>
 
-<section id="team" class="py-14 min-h-screen">
+<section id="team" class="py-4 min-h-screen">
 	<div class="max-w-screen-xl mx-auto px-4 lg:px-8">
 		<div class="max-w-xl mx-auto sm:text-center">
 			<h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">
 				Our team
 			</h3>
-			<p class="text-gray-300 mt-3">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+			<p class="text-gray-300 mt-12">
+				At the core of organization if a team of professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
 		</div>
-		<div class="mt-12">
-			<ul class="grid gap-8 lg:grid-cols-2">
+		<div class="px-96 py-14">
+			<ul class="grid gap-10 lg:grid-cols-2">
 				<li>
-					<div class="w-full h-60 sm:h-52 lg:h-56">
+					<div class="h-52 lg:h-full">
 						<img
-							src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80"
+							src="/reao.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
 							alt=""
 						/>
 					</div>
 					<div class="mt-4">
-						<h4 class="text-lg text-gray-500 font-semibold">Martiana dialan</h4>
-						<p class="text-[#F9D900]">Product Designer</p>
+						<h4 class="text-lg text-gray-500 font-semibold">Renee Wachara</h4>
+						<p class="text-[#fbbf24]">Founder</p>
 					</div>
 				</li>
 				<li>
-					<div class="w-full h-60 sm:h-52 lg:h-56">
+					<div class="w-full h-52 lg:h-full">
 						<img
-							src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80"
+							src="/pow.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
 							alt=""
 						/>
 					</div>
 					<div class="mt-4">
-						<h4 class="text-lg text-gray-500 font-semibold">Martiana dialan</h4>
-						<p class="text-[#F9D900]">Product Designer</p>
+						<h4 class="text-lg text-gray-500 font-semibold">Philemon Wachara</h4>
+						<p class="text-[#fbbf24]">Chief Operations Officer</p>
 					</div>
 				</li>
 			</ul>
@@ -292,10 +294,9 @@
             <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
                 <h2
                     class="font-heading mb-4 font-bold tracking-tight text-gray-200 text-3xl lg:text-5xl">
-                    Get in Touch
+                    Get in Touch!
                 </h2>
-                <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-400">In hac habitasse platea
-                    dictumst
+                <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-400">We are here to help.
                 </p>
             </div>
         </div>
@@ -303,9 +304,7 @@
             <div class="grid md:grid-cols-2">
                 <div class="h-full pr-6">
                     <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                        Class aptent taciti sociosqu ad
-                        litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
-                        sagittis ante, ac tincidunt sem venenatis ut.
+						Reach out to us with your enquiries or needs and we will revert immediately.
                     </p>
                     <ul class="mb-6 md:mb-0">
                         <li class="flex">
