@@ -11,11 +11,11 @@
         Tab 3
       </button>
     </nav>
-    <div>
+    <!-- <div>
       <slot>
         <h1 class="text-5xl text-white">Slot components go here...</h1>
       </slot>
-    </div>
+    </div> -->
   </div>
 
   <div class="ml-3">
