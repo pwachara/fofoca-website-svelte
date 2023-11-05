@@ -11,14 +11,9 @@
         Tab 3
       </button>
     </nav>
-    <!-- <div>
-      <slot>
-        <h1 class="text-5xl text-white">Slot components go here...</h1>
-      </slot>
-    </div> -->
   </div>
 
-  <div class="ml-3">
+  <!-- <div class="ml-3">
     <div id="vertical-tab-with-border-1" role="tabpanel" aria-labelledby="vertical-tab-with-border-item-1">
       <p class="text-gray-500 dark:text-gray-400">
         This is the <em class="font-semibold text-gray-800 dark:text-gray-200">first</em> item's tab body.
@@ -34,10 +29,12 @@
         This is the <em class="font-semibold text-gray-800 dark:text-gray-200">third</em> item's tab body.
       </p>
     </div>
-  </div>
+  </div> -->
+
+
 </aside>
 
-<section id="about2" class="bg-[#060a09] min-h-screen">
+<!-- <section id="about2" class="bg-[#060a09] min-h-screen">
     
     <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -54,14 +51,14 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section id="one" class="flex items-center justify-center min-h-screen bg-white">
-            <div class="py-14">
+<!-- <section id="one" class="flex items-center justify-center min-h-screen bg-white">
+        <div class="py-14">
             <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
                 <h3 class="font-semibold text-sm text-gray-500 text-center">
                     ONE ONLY!
                 </h3>
             </div>
         </div>
-</section>
+</section> -->

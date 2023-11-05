@@ -2,8 +2,9 @@
 	<div class="container grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center mx-auto">
 		<div class="flex flex-col justify-center p-16 lg:p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
 		
-			<h1 class="text-4xl font-bold leading-10 lg:leading-3 lg:text-6xl">We have the
-				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">Human Resource</span> functions.
+			<h1 class="text-4xl font-bold leading-10 lg:text-6xl">We have the
+				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">
+					Human Resource</span> functions.
 			</h1>
 			<p class="mt-6 mb-8 text-3xl font-bold sm:mb-12 text-gray-600">
 				Recruit<span class="text-5xl text-[#fbbf24]">.</span>
@@ -14,7 +15,7 @@
 				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
 			</div>
 		</div>
-		<div class="flex items-center p-4 lg:p-24 mx-auto">
+		<div class="flex items-center justify-center p-24">
 			<img src="tools.jpg" alt="" class="transform rotate-90 object-contain h-2/3 w-11/12 lg:h-full mx-auto" loading="lazy">
 		</div>
 	</div>
