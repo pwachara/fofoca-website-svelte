@@ -1,8 +1,8 @@
-<section id="home" class="text-gray-400 min-h-screen bg-gradient-to-r from-[#060A09] to-[#434C5A] -mt-10">
-	<div class="container grid lg:grid-cols-2 gap-4 justify-center mx-auto">
-		<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
+<section id="home" class="text-gray-400 min-h-screen bg-gradient-to-r from-[#060A09] to-[#434C5A] mt-10 lg:-mt-10">
+	<div class="container grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center mx-auto">
+		<div class="flex flex-col justify-center p-16 lg:p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
 		
-			<h1 class="text-5xl font-bold leading-3 sm:text-6xl">We have the
+			<h1 class="text-4xl font-bold leading-10 lg:leading-3 lg:text-6xl">We have the
 				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">Human Resource</span> functions.
 			</h1>
 			<p class="mt-6 mb-8 text-3xl font-bold sm:mb-12 text-gray-600">
@@ -10,12 +10,12 @@
 				Train<span class="text-5xl text-[#fbbf24]">.</span>
 				Retain<span class="text-5xl text-[#fbbf24]">.</span>
 			</p>
-			<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+			<div class="flex flex-col space-y-4 items-center justify-center lg:flex-row lg:space-y-0 lg:space-x-4 lg:justify-start">
 				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
 			</div>
 		</div>
-		<div class="flex items-center p-24">
-			<img src="tools.jpg" alt="" class="transform rotate-90 object-contain h-72 w-11/12 lg:h-full" loading="lazy">
+		<div class="flex items-center p-4 lg:p-24 mx-auto">
+			<img src="tools.jpg" alt="" class="transform rotate-90 object-contain h-2/3 w-11/12 lg:h-full mx-auto" loading="lazy">
 		</div>
 	</div>
 </section>
@@ -105,7 +105,7 @@
 
 <section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
 	<div class="max-w-3xl mx-auto text-center pt-16">
-		<h2 class="text-3xl font-extrabold sm:text-4xl">Our Previous Enagagements</h2>
+		<h2 class="text-3xl font-extrabold sm:text-4xl">Our previous enagagements</h2>
 		<p class="mt-4 text-lg text-gray-400">Pellentesque viverra, leo id euismod laoreet, nunc risus molestie orci, vel faucibus quam justo id mauris.</p>
 	</div>
 	<div class="container p-24 mx-auto flex flex-wrap">
@@ -155,7 +155,7 @@
 
 <section id="faqs" class="bg-gray-800 text-gray-300 min-h-screen">
 	<div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-		<h2 class="mb-12 text-4xl font-bold leading-3 text-center sm:text-5xl">Frequently Asked Questions</h2>
+		<h2 class="mb-12 text-4xl font-bold leading-3 text-center sm:text-5xl">Frequently asked questions</h2>
 		<div class="flex flex-col lg:px-32 gap-y-3">
 			<details>
 				<summary class="ring-1 ring-amber-400 opacity-70 p-4 cursor-pointer mb-4 text-gray-300 font-bold rounded-lg hover:opacity-90">Optio maiores eligendi molestiae totam dolores similique?</summary>
@@ -294,7 +294,7 @@
             <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
                 <h2
                     class="font-heading mb-4 font-bold tracking-tight text-gray-200 text-3xl lg:text-5xl">
-                    Get in Touch!
+                    Get in touch<span class="text-[#fbbf24]">!</span>
                 </h2>
                 <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-400">We are here to help.
                 </p>
