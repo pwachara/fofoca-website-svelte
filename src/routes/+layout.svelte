@@ -16,7 +16,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div class="flex gap-5 mr-16">
-				<ul class="list gap-5 hidden lg:flex">
+				<ul class="list gap-5 hidden lg:flex mr-5">
 					<li class=" hover:text-[#fbbf24] hover:cursor-pointer">
 						<a class:active={ $page.url.hash === "#home"} href="/#home" aria-label="home" >Home</a>
 					</li>
@@ -39,7 +39,7 @@
 						<a class:active={ $page.url.hash === "#contact"} href="/#contact" aria-label="contact">Contact Us</a>
 					</li>
 					<li class=" hover:text-[#fbbf24] hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "/about#clients"} href="/about#clients" aria-label="about">About</a>
+						<a class:active={ $page.url.pathname === "/about"} href="/about#clients" aria-label="about">About</a>
 					</li>
 				</ul>
 				<a
