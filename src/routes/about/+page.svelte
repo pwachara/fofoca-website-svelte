@@ -4,7 +4,7 @@
 </script>
 
 
-<TabGroup active="border-r-4 border-amber-500">
+<TabGroup active="border-r-4 border-[#fbbf24]">
 
     <div class="flex lg:flex-col lg:gap-5 absolute left-0 top-32 border-none min-h-screen p-6 sm:w-60 dark:bg-gray-900 dark:text-gray-100">
 

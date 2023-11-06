@@ -10,8 +10,9 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<a href="/#home">
-					<img src="./logo-loka-amber.png" alt="logo" class="w-20 ml-16 hover:cursor-pointer" />
+				<button class="text-3xl lg:hidden">&#9776</button>
+				<a href="/#home" class="hidden lg:block">
+					<img src="./logo-loka-amber.png" alt="logo" class="ml-4 h-16 lg:w-20 lg:ml-16 hover:cursor-pointer" />
 				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
@@ -43,12 +44,15 @@
 					</li>
 				</ul>
 				<a
-					class="btn btn-sm variant-ghost-surface hover:text-[#fbbf24]"
+					class="btn btn-sm variant-ghost-surface hidden lg:block hover:text-[#fbbf24]"
 					href="https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/zohomail-pricing.html&serviceurl=https://mail.zoho.com"
 					target="_blank"
 					rel="noreferrer"
 				>
 					Staff Email
+				</a>
+				<a href="/#home" class="lg:hidden">
+					<img src="./logo-loka-amber.png" alt="logo" class="ml-4 h-16 lg:w-20 lg:ml-16 hover:cursor-pointer" />
 				</a>
 				</div>
 			</svelte:fragment>
