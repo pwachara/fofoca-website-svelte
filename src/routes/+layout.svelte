@@ -39,7 +39,7 @@
 						<a class:active={ $page.url.hash === "#contact"} href="/#contact" aria-label="contact">Contact Us</a>
 					</li>
 					<li class=" hover:text-[#fbbf24] hover:cursor-pointer">
-						<a class:active={ $page.url.pathname === "/about"} href="/about#clients" aria-label="about">About</a>
+						<a class:active={ $page.url.pathname === "/about"} href="/about" aria-label="about">About</a>
 					</li>
 				</ul>
 				<a
