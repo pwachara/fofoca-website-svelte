@@ -1,5 +1,6 @@
-<script>
+<script type="ts">
     import { TabGroup, Tab, TabAnchor } from '@skeletonlabs/skeleton';
+
     let tabSet = 0;
 </script>
 

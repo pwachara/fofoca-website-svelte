@@ -2,7 +2,23 @@
 	import { page } from '$app/stores';
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { initializeStores } from '@skeletonlabs/skeleton';
+
+	import { Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
+    import type { DrawerSettings, DrawerStore } from '@skeletonlabs/skeleton';
+
+	initializeStores();
+
+	 const drawerStore = getDrawerStore();
+
+	let menuOpen = false
+
+	function toggleMenu(){
+		menuOpen = !menuOpen
+	}
 </script>
+
+<Drawer />
 
 <!-- App Shell -->
 <AppShell>
@@ -10,9 +26,13 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<button class="text-3xl lg:hidden">&#9776</button>
+				{#if menuOpen}
+					<button class="ml-4 text-3xl lg:hidden" on:click={ toggleMenu } on:click={ () => drawerStore.close() }>&#10005</button>
+				{:else}
+					<button class="ml-4 text-3xl lg:hidden" on:click={ toggleMenu } on:click={ () => drawerStore.open() }>&#9776</button>
+				{/if}
 				<a href="/#home" class="hidden lg:block">
-					<img src="./logo-loka-amber.png" alt="logo" class="ml-4 h-16 lg:w-20 lg:ml-16 hover:cursor-pointer" />
+					<img src="./logo-loka-amber.png" alt="logo" class="h-16 lg:w-20 lg:ml-16 hover:cursor-pointer" />
 				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
