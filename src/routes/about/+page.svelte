@@ -7,8 +7,7 @@
 
 <TabGroup active="border-r-4 border-[#fbbf24]">
 
-    <div class="flex lg:flex-col lg:gap-5 absolute left-0 top-32 border-none min-h-screen p-6 sm:w-60 dark:bg-gray-900 dark:text-gray-100">
-
+    <div class="flex lg:flex-col lg:gap-5 absolute left-0 top-32 z-0 border-none min-h-screen p-6 sm:w-60 dark:bg-gray-900 dark:text-gray-100">
         <div class="space-y-2">
 			<div class="flex flex-col space-y-3">
                 <Tab bind:group={tabSet} name="tab1" value={0}>About Us</Tab>
@@ -16,17 +15,13 @@
                 <Tab bind:group={tabSet} name="tab3" value={2}>Other</Tab>
 			</div>
 		</div>
-
-
-
-
     </div>
 
 
 	<!-- Tab Panels --->
 	<svelte:fragment slot="panel">
 
-        <div class="absolute left-1/4 top-1/4">
+        <div class="absolute left-1/4 top-1/4 z-0">
 
             {#if tabSet === 0}
 			<p class="container p-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolorem deleniti blanditiis animi laudantium aspernatur similique cumque libero odit numquam, tempore aperiam maiores voluptatum ea consequuntur quo id incidunt tenetur.
