@@ -16,14 +16,8 @@ const drawerSettings: DrawerSettings = {
 	id: 'example-3',
 	// Provide your property overrides:
 	bgDrawer: 'bg-[#434c5a]',
-	//bgBackdrop: 'bg-surface-backdrop-token',
-	//bgBackdrop: 'bg-slate-700',
 	width: 'w-[75%]',
-	//padding: 'p-4',
-	//rounded: 'rounded-xl',
 };
-
-
 
 	let menuOpen = false
 
