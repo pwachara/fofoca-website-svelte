@@ -111,7 +111,8 @@
 	</div>
 	<div class="container p-24 mx-auto flex flex-wrap">
 		<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-24">
-		<img alt="feature" class="object-cover object-center h-full w-full transform scale-125" src="/at-work.jpg">
+		<!-- <img alt="feature" class="object-cover object-center h-full w-full transform scale-125" src="/at-work.jpg"> -->
+		<img alt="feature" class="object-contain h-full w-full transform scale-125" src="/at-work.jpg">
 		</div>
 		<div class="flex flex-wrap lg:py-6 lg:w-1/2 lg:pl-6 lg:text-left text-center">
 			<div class="flex mb-10 lg:items-start items-center">
@@ -263,7 +264,7 @@
 						<img
 							src="/reao.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
-							alt=""
+							alt="founder - renee"
 						/>
 					</div>
 					<div class="mt-4">
@@ -276,7 +277,7 @@
 						<img
 							src="/pow.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
-							alt=""
+							alt="chief operations officer - philemon"
 						/>
 					</div>
 					<div class="mt-4">
