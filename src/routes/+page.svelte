@@ -1,5 +1,5 @@
 <section id="home" class="text-gray-400 min-h-screen bg-gradient-to-r from-[#060A09] to-[#434C5A] mt-10 lg:-mt-10">
-	<div class="container grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center mx-auto">
+	<div class="container grid grid-cols-1 lg:grid-cols-2 lg:gap-4 justify-center mx-auto">
 		<div class="flex flex-col justify-center p-4 lg:p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
 		
 			<h1 class="text-4xl font-bold leading-10 lg:text-6xl">We have the
@@ -11,12 +11,12 @@
 				Train<span class="text-5xl text-[#fbbf24]">.</span>
 				Retain<span class="text-5xl text-[#fbbf24]">.</span>
 			</p>
-			<div class="flex flex-col space-y-4 items-center justify-center lg:flex-row lg:space-y-0 lg:space-x-4 lg:justify-start">
+			<div class="flex flex-col items-center justify-center lg:flex-row lg:space-x-4 lg:justify-start">
 				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
 			</div>
 		</div>
 		<div class="flex items-center justify-center lg:p-24 p-4">
-			<img src="tools.jpg" alt="tools" class="transform rotate-90 object-contain h-2/3 w-11/12 lg:h-full mx-auto" loading="lazy">
+			<img src="tools.jpg" alt="tools" class="transform rotate-90 object-contain h-2/3 w-11/12 lg:h-full" loading="lazy">
 		</div>
 	</div>
 </section>
@@ -105,14 +105,15 @@
 </section>
 
 <section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
-	<div class="max-w-3xl mx-auto text-center pt-16">
-		<h2 class="text-3xl font-extrabold sm:text-4xl">Our previous enagagements</h2>
-		<p class="mt-4 text-lg text-gray-400">Pellentesque viverra, leo id euismod laoreet, nunc risus molestie orci, vel faucibus quam justo id mauris.</p>
+	<div class="max-w-3xl mx-auto text-center pt:2 lg:pt-16">
+		<h2 class="text-3xl font-extrabold lg:text-4xl">Our previous enagagements</h2>
+		<p class="mt-4 text-lg text-gray-400">
+			Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements, and aligned with their specific business objectives.
+		</p>
 	</div>
-	<div class="container p-24 mx-auto flex flex-wrap">
-		<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-24">
-		<!-- <img alt="feature" class="object-cover object-center h-full w-full transform scale-125" src="/at-work.jpg"> -->
-		<img alt="feature" class="object-contain h-full w-full transform scale-125" src="/at-work.jpg">
+	<div class="container p-2 lg:p-24 mx-auto flex flex-wrap">
+		<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-4 lg:p-24">
+			<img alt="feature" class="object-cover h-full w-full transform scale-125" src="/at-work.jpg">
 		</div>
 		<div class="flex flex-wrap lg:py-6 lg:w-1/2 lg:pl-6 lg:text-left text-center">
 			<div class="flex mb-10 lg:items-start items-center">
@@ -123,32 +124,33 @@
 					</svg>
 				</div>
 				<div class="flex-grow">
-					<h2 class="text-gray-300 text-lg font-medium p-2">Shooting Stars</h2>
-					<p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+					<h2 class="text-gray-300 text-lg font-medium p-2">African Plant Nutrition Institute</h2>
+					<p class="leading-relaxed text-base">Review of employee contracts and manuals.</p>
 				</div>
 			</div>
+		
 		<div class="flex mb-10 lg:items-start items-center">
-			<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
-         	<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-              <path d="M22 4L12 14.01l-3-3"></path>
-            </svg>
-			</div>
-			<div class="flex-grow">
-			<h2 class="text-gray-300 text-lg font-medium p-2">The Catalyzer</h2>
-			<p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-			</div>
-		</div>
-		<div class="flex flex-shrink-0 mb-10 lg:items-start items-center">
 			<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
 				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
 				<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
 				<path d="M22 4L12 14.01l-3-3"></path>
 				</svg>
 			</div>
+			<div class="flex-1">
+				<h2 class="text-gray-300 text-lg font-medium p-2">Africa AI</h2>
+				<p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+			</div>
+		</div>
+		<div class="flex flex-shrink-0 mb-10 items-start">
+			<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
+				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+					<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					<path d="M22 4L12 14.01l-3-3"></path>
+				</svg>
+			</div>
 			<div class="flex-grow">
 				<h2 class="text-gray-300 text-lg font-medium p-2">Neptune</h2>
-				<p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+				<p class="leading-relaxed text-base">indxgo juice poutine.</p>
 			</div>
 		</div>
 		</div>
@@ -156,8 +158,8 @@
 </section>
 
 <section id="faqs" class="bg-gray-800 text-gray-300 min-h-screen">
-	<div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-		<h2 class="mb-12 text-4xl font-bold leading-3 text-center sm:text-5xl">Frequently asked questions</h2>
+	<div class="container flex flex-col flex-wrap justify-center p-4 mx-auto lg:p-8">
+		<h2 class="mb-12 text-4xl font-bold leading-10 text-center lg:text-5xl">Frequently asked questions</h2>
 		<div class="flex flex-col lg:px-32 gap-y-3">
 			<details>
 				<summary class="ring-1 ring-amber-400 opacity-70 p-4 cursor-pointer mb-4 text-gray-300 font-bold rounded-lg hover:opacity-90">Optio maiores eligendi molestiae totam dolores similique?</summary>
@@ -184,7 +186,7 @@
 
 <section id="testimonials" class="my-8 dark:bg-gray-800 dark:text-gray-100 min-h-screen">
 	<div class="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
-		<h1 class="p-4 text-4xl font-semibold leadi text-center">What our customers are saying about us</h1>
+		<h1 class="p-4 text-4xl font-semibold leading-10 text-center">What our customers are saying about us</h1>
 	</div>
 	<div class="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
 		<div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -250,14 +252,13 @@
 <section id="team" class="py-4 min-h-screen">
 	<div class="max-w-screen-xl mx-auto px-4 lg:px-8">
 		<div class="max-w-xl mx-auto sm:text-center">
-			<h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">
-				Our team
-			</h3>
-			<p class="text-gray-300 mt-12">
+			<!-- <h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">Our team</h3> -->
+			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl">Our team</h1>
+			<p class="text-gray-300 my-4 lg:mt-12">
 				At the core of organization if a team of professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
 		</div>
-		<div class="px-96 py-14">
+		<div class="lg:px-96 lg:py-14">
 			<ul class="grid gap-10 lg:grid-cols-2">
 				<li>
 					<div class="h-52 lg:h-full">
