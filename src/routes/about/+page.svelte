@@ -10,9 +10,9 @@
         <div class="lg:space-y-2">
 			<div class="flex flex-row lg:flex-col lg:space-y-3 mx-auto">
                 <Tab bind:group={tabSet} name="tab0" value={0}>About Us</Tab>
-                <Tab bind:group={tabSet} name="tab1" value={1}>Mission</Tab>
-                <Tab bind:group={tabSet} name="tab2" value={2}>Clients</Tab>
-                <Tab bind:group={tabSet} name="tab3" value={3}>Other</Tab>
+                <Tab bind:group={tabSet} name="tab1" value={1}>Vision</Tab>
+                <Tab bind:group={tabSet} name="tab2" value={2}>Values</Tab>
+                <Tab bind:group={tabSet} name="tab3" value={3}>Clients</Tab>
 			</div>
 		</div>
     </div>
@@ -20,59 +20,105 @@
 
 	<!-- Tab Panels --->
 	<svelte:fragment slot="panel">
-
-        <!-- <div class="absolute left-1/4 top-1/4 z-0 min-h-screen text-gray-400"> -->
-        <div class="min-h-screen text-gray-400">
-
+        <div class="text-gray-400 min-h-screen">
             {#if tabSet === 0}
-			<section id="about-us" class="flex mx-auto p-10 lg:mx-[15%] min-h-screen">
-                <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                    <img src="/at-work-touching-helmet.jpg" alt="" class="h-3/4 dark:bg-gray-500 aspect-auto">
-                    <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900 -mt-24">
-                        <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our history</h3>
-                        <div class="my-6 lg:p-12 dark:text-gray-400 text-xl">
-                            <p class="p-6 flex flex-row">
-                                <span class="p-2 text-[#fbbf24]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    Loka Advisory Services Limited is a HR Advisory and Consultancy services company that was formed in Kenya to ease the burden and step in, when no HR expertise exists to handle your continually needed HR functions.  
-                                </span>
-                            </p>
-                            <p class="p-6 flex flex-row">
-                                <span class="p-2 text-[#fbbf24]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    Our functions are typically split between a variety of people, who do not have the training and experience that an HR Consultant brings to the table.
-                                </span>
-                            </p>
-                            <p class="p-6 flex flex-row">
-                                <span class="p-2 text-[#fbbf24]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    Loka Advisory lessens the burden for the employer by helping them maximize efficiency of employees leading to higher productivity levels.  Your business will benefit from the expertise and experience of Human Resource Consultants without the cost of paying a full-time salary.
-                                </span>
-                            </p>
+                <section id="about-us" class="flex mx-auto p-10 lg:mx-[15%] min-h-screen">
+                    <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+                        <img src="/at-work-touching-helmet.jpg" alt="" class="h-3/4 dark:bg-gray-500 aspect-auto">
+                        <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900 -mt-24">
+                            <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our history</h3>
+                            <div class="my-6 lg:p-12 dark:text-gray-400 text-xl">
+                                <p class="p-6 flex flex-row">
+                                    <span class="p-2 text-[#fbbf24]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    <span>
+                                        Loka Advisory Services Limited is a HR Advisory and Consultancy services company that was formed in Kenya to ease the burden and step in, when no HR expertise exists to handle your continually needed HR functions.  
+                                    </span>
+                                </p>
+                                <p class="p-6 flex flex-row">
+                                    <span class="p-2 text-[#fbbf24]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    <span>
+                                        Our functions are typically split between a variety of people, who do not have the training and experience that an HR Consultant brings to the table.
+                                    </span>
+                                </p>
+                                <p class="p-6 flex flex-row">
+                                    <span class="p-2 text-[#fbbf24]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    <span>
+                                        Loka Advisory lessens the burden for the employer by helping them maximize efficiency of employees leading to higher productivity levels.  Your business will benefit from the expertise and experience of Human Resource Consultants without the cost of paying a full-time salary.
+                                    </span>
+                                </p>
+                            </div>
                         </div>
                     </div>
-		        </div>
-                <div class="hidden">
-
-                </div>
-            </section>
+                </section>
 		    {:else if tabSet === 1}
-                <section>
-
+                <section id="vision" class="flex mx-auto p-10 lg:mx-[15%] min-h-screen">
+                    <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+                        <img src="/lens.jpg" alt="" class="h-3/4 dark:bg-gray-500">
+                        <div class="flex flex-col">
+                            <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900 -mt-24">
+                                <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our Vision</h3>
+                                <div class="lg:p-12 dark:text-gray-400 text-xl">
+                                    <p class="p-6 flex flex-row">
+                                        To be recognized as an impactful, innovative and efficient HR Consulting partner.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900">
+                                    <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our Mission</h3>
+                                    <div class="my-6 lg:p-12 dark:text-gray-400 text-xl">
+                                        <p class="p-6 flex flex-row">
+                                            We are a professional, enthusiastic and innovative team, 
+                                            dedicated to providing professional HR Consulting Services and 
+                                            evolving Recruitment Solutions that help our customers become more productive and profitable.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             {:else if tabSet === 2}
+                <section id="values" class="min-h-screen">
+                    <div class="px-4 py-16 mx-auto max-w-xl lg:max-w-screen-xl lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100">
+                        <h2 class="mb-8 text-4xl font-bold leadi text-center text-slate-300">Our values</h2>
+                        <ul class="grid gap-10 justify-center text-2xl text-slate-400">
+                            <li class="flex items-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
+                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                                </svg>
+                                <span>Integrity</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
+                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                                </svg>
+                                <span>Professionalism</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
+                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                                </svg>
+                                <span>Responsiveness</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            
+            {:else if tabSet === 3}
                 <section id="clients" class="flex items-center justify-center">
                     <div class="py-14">
                         <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
@@ -96,11 +142,6 @@
                             </div>
                         </div>
                     </div>
-                </section>
-            
-            {:else if tabSet === 3}
-                <section>
-
                 </section>
             {/if}
 
