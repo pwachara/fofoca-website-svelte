@@ -22,9 +22,9 @@
 </section>
 
 <section id="services" class="bg-gray-800 text-gray-100 min-h-screen">
-	<div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+	<div class="px-4 py-8 mx-auto max-w-7xl lg:px-8">
 		<div class="max-w-3xl mx-auto text-center">
-			<h2 class="text-3xl font-extrabold sm:text-4xl">All the services you want</h2>
+			<h2 class="text-3xl font-extrabold lg:text-4xl">All the services you want</h2>
 			<p class="mt-4 text-lg text-gray-400">Not only do we provide advice, but also aid in the implementation of the solutions proposed by us.</p>
 		</div>
 		<dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
@@ -105,54 +105,57 @@
 </section>
 
 <section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
-	<div class="max-w-3xl mx-auto text-center pt:2 lg:pt-16">
-		<h2 class="text-3xl font-extrabold lg:text-4xl">Our previous enagagements</h2>
-		<p class="mt-4 text-lg text-gray-400">
-			Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements, and aligned with their specific business objectives.
-		</p>
-	</div>
-	<div class="container p-2 lg:p-24 mx-auto flex flex-wrap">
-		<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-4 lg:p-24">
-			<img alt="feature" class="object-cover h-full w-full transform scale-125" src="/at-work.jpg">
+	<div class="px-4 py-8 mx-auto max-w-7xl lg:px-8">
+		<div class="max-w-3xl mx-auto text-center pt:2 lg:pt-16 mb-5">
+			<h2 class="text-3xl font-extrabold lg:text-4xl">Previous enagagements</h2>
+			<p class="mt-4 text-lg text-gray-400">
+				Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements, and aligned with their specific business objectives.
+			</p>
 		</div>
-		<div class="flex flex-wrap lg:py-6 lg:w-1/2 lg:pl-6 lg:text-left text-center">
+		<div class="container p-2 lg:p-12 mx-auto flex flex-wrap ">
+			<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-4 lg:p-24 mb-5">
+				<img alt="feature" class="object-cover h-full w-full transform scale-125" src="/at-work.jpg">
+			</div>
+			<div class="flex flex-wrap lg:py-6 lg:w-1/2 lg:pl-6 lg:text-left text-center">
+				<div class="flex mb-10 lg:items-start items-center">
+					<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900]">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+							<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+							<path d="M22 4L12 14.01l-3-3"></path>
+						</svg>
+					</div>
+					<div class="flex-1">
+						<h2 class="text-gray-300 text-lg font-medium p-2">Human Resource Manuals</h2>
+						<p class="leading-relaxed text-base pl-2 text-left">We have helped companies by reviewing their employee manuals to comply with Kenya labour laws.</p>
+					</div>
+				</div>
+			
 			<div class="flex mb-10 lg:items-start items-center">
-				<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
+				<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900]">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+					<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					<path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+				</div>
+				<div class="flex-1">
+					<h2 class="text-gray-300 text-lg font-medium p-2">Employee Contracts</h2>
+					<p class="leading-relaxed text-base pl-2 text-left">We have helped companies setting up operations in Kenya by drawing for them employee contracts that are in line with the existing labour laws. This ensures that the company interest are protected from the onset and potential risks minimized during staff separation.</p>
+				</div>
+			</div>
+			<div class="flex mb-10 lg:items-start items-center">
+				<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-0">
 					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
 						<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
 						<path d="M22 4L12 14.01l-3-3"></path>
 					</svg>
 				</div>
-				<div class="flex-grow">
-					<h2 class="text-gray-300 text-lg font-medium p-2">African Plant Nutrition Institute</h2>
-					<p class="leading-relaxed text-base">Review of employee contracts and manuals.</p>
+				<div class="flex-1">
+					<h2 class="text-gray-300 text-lg font-medium p-2">Novation Letters</h2>
+					<p class="leading-relaxed text-base p-2 text-left">A novation letter is a legal document used in contract law to transfer the rights and obligations of one party in a contract to another party.  
+						Although this is a complex process, we have with the help of legal professionals managed to ensure that all parties' rights and interests were protected and that the novation was legally valid.</p>
 				</div>
 			</div>
-		
-		<div class="flex mb-10 lg:items-start items-center">
-			<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
-				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-				<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-				<path d="M22 4L12 14.01l-3-3"></path>
-				</svg>
 			</div>
-			<div class="flex-1">
-				<h2 class="text-gray-300 text-lg font-medium p-2">Africa AI</h2>
-				<p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-			</div>
-		</div>
-		<div class="flex flex-shrink-0 mb-10 items-start">
-			<div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-5">
-				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-					<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-					<path d="M22 4L12 14.01l-3-3"></path>
-				</svg>
-			</div>
-			<div class="flex-grow">
-				<h2 class="text-gray-300 text-lg font-medium p-2">Neptune</h2>
-				<p class="leading-relaxed text-base">indxgo juice poutine.</p>
-			</div>
-		</div>
 		</div>
 	</div>
 </section>
