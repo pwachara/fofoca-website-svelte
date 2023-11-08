@@ -16,7 +16,7 @@ const drawerSettings: DrawerSettings = {
 	id: 'example-3',
 	// Provide your property overrides:
 	// bgDrawer: 'bg-[#434c5a]',
-	bgDrawer: 'bg-[#060a09]',
+	bgDrawer: 'bg-[#231631]',
 	width: 'w-[75%]',
 };
 
