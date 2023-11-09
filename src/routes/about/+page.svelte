@@ -24,7 +24,7 @@
             {#if tabSet === 0}
                 <section id="about-us" class="flex mx-auto p-10 lg:mx-[15%] min-h-screen">
                     <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                        <img src="/at-work-touching-helmet.jpg" alt="" class="h-3/4 dark:bg-gray-500 aspect-auto">
+                        <img src="/at-work-touching-helmet.jpg" alt="" class="h-3/4 dark:bg-gray-500 aspect-auto" loading="lazy">
                         <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900 -mt-24">
                             <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our history</h3>
                             <div class="my-6 lg:p-12 dark:text-gray-400 text-xl">
@@ -63,30 +63,28 @@
                     </div>
                 </section>
 		    {:else if tabSet === 1}
-                <section id="vision" class="flex mx-auto p-10 lg:mx-[15%] min-h-screen">
-                    <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                        <img src="/lens.jpg" alt="" class="h-3/4 dark:bg-gray-500">
-                        <div class="flex flex-col">
-                            <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900 -mt-24">
-                                <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our Vision</h3>
+                <section id="vision" class="relative top-0 lg:left-[12%] min-h-screen min-w-full">
+                    <img src="/lens.jpg" alt="lens" class="min-h-full w-full object-right-bottom"/>
+                        <div class="absolute top-0 lg:top-[12%] lg:left-[12%] flex flex-col bg-transparent">
+                            <div class="flex flex-col justify-center p-4 lg:mt-0">
+                                <h3 class="flex text-3xl lg:text-6xl font-bold mx-[25%] text-[#fbbf24]">Our Vision</h3>
                                 <div class="lg:p-12 dark:text-gray-400 text-xl">
-                                    <p class="p-6 flex flex-row">
-                                        To be recognized as an impactful, innovative and efficient HR Consulting partner.
+                                    <p class="p-6 flex lg:text-3xl">
+                                        To be the most impactful, innovative and efficient HR Consulting partner.
                                     </p>
                                 </div>
                             </div>
-                            <div class="flex flex-col justify-center flex-1 p-4 dark:bg-gray-900">
-                                    <h3 class="flex text-3xl font-bold mt-4 lg:mt-0 mx-auto">Our Mission</h3>
+                            <div class="flex flex-col justify-center flex-1 p-4">
+                                    <h3 class="flex text-3xl lg:text-6xl font-bold mx-[25%] text-[#fbbf24]">Our Mission</h3>
                                     <div class="my-6 lg:p-12 dark:text-gray-400 text-xl">
-                                        <p class="p-6 flex flex-row">
+                                        <p class="p-6 flex lg:text-3xl flex-wrap lg:leading-10 lg:max-w-[75%]">
                                             We are a professional, enthusiastic and innovative team, 
-                                            dedicated to providing professional HR Consulting Services and 
-                                            evolving Recruitment Solutions that help our customers become more productive and profitable.
+                                            dedicated to providing professional HR consulting services and 
+                                            evolving recruitment solutions that help our customers become more productive and profitable.
                                         </p>
                                     </div>
                             </div>
                         </div>
-                    </div>
                 </section>
             {:else if tabSet === 2}
                 <section id="values" class="min-h-screen">
@@ -130,13 +128,13 @@
                                     <li>
                                         <img src="https://uploads-ssl.webflow.com/623a29a434fe9111ecdccb63/623a2d6bd1008ebeeabbee14_Group%2029.png" 
                                             class="w-48 h-24" 
-                                            alt="Africa AI logo" />
+                                            alt="Africa AI logo" loading="lazy" />
                                     </li>
                                     <li><span class="lg:pr-12 lg:border-r-4 border-slate-500 lg:mr-12 text-5xl"></span></li>
                                     <li>
                                         <img src="https://www.apni.net/wp-content/uploads/2020/07/APNI-header-82.png"
                                             class="w-48 h-12"
-                                            alt="Africa Plant Nutrition logo" />
+                                            alt="Africa Plant Nutrition logo" loading="lazy" />
                                     </li>
                                 </ul>
                             </div>
@@ -144,7 +142,6 @@
                     </div>
                 </section>
             {/if}
-
         </div>
 	</svelte:fragment>
 </TabGroup>
