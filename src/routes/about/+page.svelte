@@ -6,7 +6,7 @@
 
 <TabGroup active="border-b-4 border-r-0 lg:border-r-4 lg:border-b-0 border-[#fbbf24]">
 
-    <div class="flex flex-row lg:flex-col lg:gap-5 lg:absolute lg:left-0 lg:top-28 z-0 border-none lg:min-h-screen p-6 lg:w-60 dark:bg-gray-900 dark:text-gray-100">
+    <div class="flex flex-row lg:flex-col lg:gap-5 lg:absolute lg:left-0 lg:top-28 z-0 border-none lg:min-h-screen lg:w-60 dark:bg-gray-900 dark:text-gray-100">
         <div class="lg:space-y-2">
 			<div class="flex flex-row lg:flex-col lg:space-y-3 mx-auto">
                 <Tab bind:group={tabSet} name="tab0" value={0}>About Us</Tab>
@@ -92,7 +92,7 @@
                 </section>
             
             {:else if tabSet === 3}
-                <section id="clients" class="flex items-center justify-center min-h-screen">
+                <section id="clients" class="flex mx-auto min-h-screen">
                         <div class="max-w-screen-xl mx-auto">
                             <h3 class="font-semibold text-sm text-gray-500 text-center mb-10">
                                 TRUSTED BY TEAMS FROM AROUND THE WORLD
@@ -100,13 +100,13 @@
                             <div class="flex flex-col lg:flex-row">
                                 <ul class="flex flex-col lg:flex-row gap-y-6 items-center justify-center">
                                     <li>
-                                        <img src="https://uploads-ssl.webflow.com/623a29a434fe9111ecdccb63/623a2d6bd1008ebeeabbee14_Group%2029.png" 
+                                        <img src="/africa-ai.jpg" 
                                             class="w-48 h-24" 
                                             alt="Africa AI logo" loading="lazy" />
                                     </li>
                                     <li><span class="lg:pr-12 lg:border-r-4 border-slate-500 lg:mr-12 text-5xl"></span></li>
                                     <li>
-                                        <img src="https://www.apni.net/wp-content/uploads/2020/07/APNI-header-82.png"
+                                        <img src="/apni.jpg"
                                             class="w-48 h-12"
                                             alt="Africa Plant Nutrition logo" loading="lazy" />
                                     </li>

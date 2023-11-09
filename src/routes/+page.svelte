@@ -165,36 +165,42 @@
 		<h2 class="mb-12 text-4xl font-bold leading-10 text-center lg:text-5xl">Frequently asked questions</h2>
 		<div class="flex flex-col lg:px-32 gap-y-3">
 			<details>
-				<summary class="ring-1 ring-amber-400 opacity-70 p-4 cursor-pointer mb-4 text-gray-300 font-bold rounded-lg hover:opacity-90">Optio maiores eligendi molestiae totam dolores similique?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 cursor-pointer mb-4 text-gray-300 font-bold rounded-lg hover:opacity-90">We are looking to set up operations in Kenya for the first time. Can you be of help?</summary>
 				<div class="px-6 pb-6">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
+					<p>Yes, we can help establish a HR infrastructure that will not only effectively support your business needs from the onset, but also comply with all the local labour laws.</p>
 				</div>
 			</details>
 			<details>
-				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">Can you help me determine whether I am paying my staff adequately?</summary>
 				<div class="px-6 pb-6">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
+					<p>Yes, we will perform salary benchmarking exercises to ensure competitiveness in your industry.  Salaries, Pension Schemes, Medical Covers, Group Life Insurance etc. will be reviewed and the necessary advice given.</p>
 				</div>
 			</details>
 			<details>
-				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">Magni reprehenderit possimus debitis?</summary>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">We are lagging behind in our CBA negotiations. Can you help?</summary>
 				<div class="px-6 pb-6 space-y-2">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
-					<p>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
+					<p>Yes, we can help you negotiate all your collective bargaining agreements (CBAs) and foster cordial relations with the Union shop stewards and Union officials.</p>
+				</div>
+			</details>
+			<details>
+				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">I have a feeling my staff are not working as they should. What can I do?</summary>
+				<div class="px-6 pb-6 space-y-2">
+					<p>If you allow us we will work with you to ensure you have an effective performance management program. </p> 
+					<p>We will help you conduct performance management trainings, objectives setting and periodic performance appraisals including implementation of performance improvement plans.</p>
 				</div>
 			</details>
 		</div>
 	</div>
 </section>
 
-<section id="testimonials" class="my-8 dark:bg-gray-800 dark:text-gray-100 min-h-screen">
+<section id="testimonials" class="my-8 dark:bg-gray-800 dark:text-gray-300 min-h-screen">
 	<div class="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
 		<h1 class="p-4 text-4xl font-semibold leading-10 text-center">What our customers are saying about us</h1>
 	</div>
 	<div class="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
 		<div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
 			<div class="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-900">
-				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-100">
+				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-300">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="w-8 h-8 dark:text-amber-400">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -213,7 +219,7 @@
 		</div>
 		<div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
 			<div class="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-900">
-				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-100">
+				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-300">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="w-8 h-8 dark:text-amber-400">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -232,7 +238,7 @@
 		</div>
 		<div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
 			<div class="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-900">
-				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-100">
+				<p class="relative px-6 py-1 text-lg italic text-center dark:text-gray-300">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="w-8 h-8 dark:text-amber-400">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -256,7 +262,7 @@
 	<div class="max-w-screen-xl mx-auto px-4 lg:px-8">
 		<div class="max-w-xl mx-auto sm:text-center">
 			<!-- <h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">Our team</h3> -->
-			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl">Our team</h1>
+			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl text-gray-300">Our team</h1>
 			<p class="text-gray-300 my-4 lg:mt-12">
 				At the core of organization if a team of professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
@@ -286,7 +292,7 @@
 					</div>
 					<div class="mt-4">
 						<h4 class="text-lg text-gray-500 font-semibold">Philemon Wachara</h4>
-						<p class="text-[#fbbf24]">Chief Operations Officer</p>
+						<p class="text-[#fbbf24]">Co-founder</p>
 					</div>
 				</li>
 			</ul>
