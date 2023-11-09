@@ -100,13 +100,13 @@
                             <div class="flex flex-col lg:flex-row">
                                 <ul class="flex flex-col lg:flex-row gap-y-6 items-center justify-center">
                                     <li>
-                                        <img src="/africa-ai.jpg" 
+                                        <img src="/africa-ai.png" 
                                             class="w-48 h-24" 
                                             alt="Africa AI logo" loading="lazy" />
                                     </li>
                                     <li><span class="lg:pr-12 lg:border-r-4 border-slate-500 lg:mr-12 text-5xl"></span></li>
                                     <li>
-                                        <img src="/apni.jpg"
+                                        <img src="/apni.png"
                                             class="w-48 h-12"
                                             alt="Africa Plant Nutrition logo" loading="lazy" />
                                     </li>
