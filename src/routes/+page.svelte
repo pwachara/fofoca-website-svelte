@@ -270,29 +270,29 @@
 		<div class="lg:px-96 lg:py-14">
 			<ul class="grid gap-10 lg:grid-cols-2">
 				<li>
-					<div class="w-3/4 md:w-full">
+					<div class="w-3/4 md:w-full md:h-5/6">
 						<img
-							src="/reao.jpg"
-							class="w-full h-full object-cover object-center shadow-md rounded-xl"
+							src="/reao-small.jpg"
+							class="w-full h-full object-cover object-center shadow-md rounded-md"
 							alt="founder - renee"
 						/>
 					</div>
 					<div class="mt-4">
 						<h4 class="text-lg text-gray-500 font-semibold">Renee Wachara</h4>
-						<p class="text-[#fbbf24]">Founder</p>
+						<!-- <span class="text-[#fbbf24]"> - Founder</span> -->
 					</div>
 				</li>
-				<li>
-					<div class="w-3/4 md:w-full">
+				<li class="flex flex-col">
+					<div class="w-3/4 md:w-full md:h-5/6">
 						<img
-							src="/pow.jpg"
-							class="w-full h-full object-cover object-center shadow-md rounded-xl"
+							src="/pow-small.jpg"
+							class="w-full h-full object-cover object-center shadow-md rounded-md"
 							alt="chief operations officer - philemon"
 						/>
 					</div>
 					<div class="mt-4">
 						<h4 class="text-lg text-gray-500 font-semibold">Philemon Wachara</h4>
-						<p class="text-[#fbbf24]">Co-founder</p>
+						<!-- <span class="text-[#fbbf24]">- Co-founder</span> -->
 					</div>
 				</li>
 			</ul>
