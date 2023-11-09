@@ -264,13 +264,13 @@
 			<!-- <h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">Our team</h3> -->
 			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl text-gray-300">Our team</h1>
 			<p class="text-gray-300 my-4 lg:mt-12">
-				At the core of organization if a team of professionals with over 50 years of accumulated experience in diverse fields.
+				At the core of organization is a team of professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
 		</div>
 		<div class="lg:px-96 lg:py-14">
 			<ul class="grid gap-10 lg:grid-cols-2">
 				<li>
-					<div class="h-52 lg:h-full">
+					<div class="w-3/4 md:w-full">
 						<img
 							src="/reao.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
@@ -283,7 +283,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="w-full h-52 lg:h-full">
+					<div class="w-3/4 md:w-full">
 						<img
 							src="/pow.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-xl"
