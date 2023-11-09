@@ -63,7 +63,7 @@
                     </div>
                 </section>
 		    {:else if tabSet === 1}
-                <section id="vision" class="relative top-0 lg:left-[12%] min-h-screen min-w-full">
+                <section id="vision" class="relative top-0 lg:left-[13%] min-h-screen min-w-full">
                     <img src="/lens.jpg" alt="lens" class="min-h-full w-full object-right-bottom"/>
                         <div class="absolute top-0 lg:top-[12%] lg:left-[12%] flex flex-col bg-transparent">
                             <div class="flex flex-col justify-center p-4 lg:mt-0">
