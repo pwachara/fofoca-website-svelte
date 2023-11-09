@@ -87,44 +87,18 @@
                         </div>
                 </section>
             {:else if tabSet === 2}
-                <section id="values" class="min-h-screen">
-                    <div class="px-4 py-16 mx-auto max-w-xl lg:max-w-screen-xl lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100">
-                        <h2 class="mb-8 text-4xl font-bold leadi text-center text-slate-300">Our values</h2>
-                        <ul class="grid gap-10 justify-center text-2xl text-slate-400">
-                            <li class="flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
-                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
-                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
-                                </svg>
-                                <span>Integrity</span>
-                            </li>
-                            <li class="flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
-                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
-                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
-                                </svg>
-                                <span>Professionalism</span>
-                            </li>
-                            <li class="flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current dark:text-amber-400">
-                                    <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
-                                    <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
-                                </svg>
-                                <span>Responsiveness</span>
-                            </li>
-                        </ul>
-                    </div>
+                <section id="values" class="object-cover lg:h-1/2 lg:w-1/2 mx-auto">
+                    <img src="/values.jpg" alt="values" loading="lazy"/>
                 </section>
             
             {:else if tabSet === 3}
-                <section id="clients" class="flex items-center justify-center">
-                    <div class="py-14">
-                        <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
-                            <h3 class="font-semibold text-sm text-gray-500 text-center mb-10 lg:mb-0">
+                <section id="clients" class="flex items-center justify-center min-h-screen">
+                        <div class="max-w-screen-xl mx-auto">
+                            <h3 class="font-semibold text-sm text-gray-500 text-center mb-10">
                                 TRUSTED BY TEAMS FROM AROUND THE WORLD
                             </h3>
-                            <div class="mt-6 flex flex-col lg:flex-row">
-                                <ul class="flex flex-col lg:flex-row gap-y-6 flex-wrap items-center justify-center">
+                            <div class="flex flex-col lg:flex-row">
+                                <ul class="flex flex-col lg:flex-row gap-y-6 items-center justify-center">
                                     <li>
                                         <img src="https://uploads-ssl.webflow.com/623a29a434fe9111ecdccb63/623a2d6bd1008ebeeabbee14_Group%2029.png" 
                                             class="w-48 h-24" 
@@ -139,7 +113,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
                 </section>
             {/if}
         </div>
