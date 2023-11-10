@@ -42,7 +42,7 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">HR Policy Design</dt>
+					<dt class="text-lg font-medium">HR policy design</dt>
 					<dd class="mt-2 text-gray-400">We design policies that are in alignment with your company's culture and in conformity with the country's employment and labour laws.</dd>
 				</div>
 			</div>
@@ -87,7 +87,7 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Labour Outsourcing</dt>
+					<dt class="text-lg font-medium">Labour outsourcing</dt>
 					<dd class="mt-2 text-gray-400">We can manage all your blue collar workers and non-critical white collar workers directly under our company.</dd>
 				</div>
 			</div>
@@ -96,8 +96,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
 				</svg>
 				<div class="ml-3">
-					<dt class="text-lg font-medium">Collective Bargaining Agreements</dt>
-					<dd class="mt-2 text-gray-400">We will help you negotiate all your collective bargaining agreements and foster cordial relations with the Union shop stewards and Union Officials.</dd>
+					<dt class="text-lg font-medium">Collective bargaining agreements</dt>
+					<dd class="mt-2 text-gray-400">We will help you negotiate all your collective bargaining agreements (CBAs) and foster cordial relations with the union shop stewards and union officials.</dd>
 				</div>
 			</div>
 		</dl>
@@ -109,7 +109,7 @@
 		<div class="max-w-3xl mx-auto text-center pt:2 lg:pt-16 mb-5">
 			<h2 class="text-3xl font-extrabold lg:text-4xl">Previous enagagements</h2>
 			<p class="mt-4 text-lg text-gray-400">
-				Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements, and aligned with their specific business objectives.
+				Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements and aligned with their specific business objectives.
 			</p>
 		</div>
 		<div class="container p-2 lg:p-12 mx-auto flex flex-wrap ">
@@ -125,8 +125,8 @@
 						</svg>
 					</div>
 					<div class="flex-1">
-						<h2 class="text-gray-300 text-lg font-medium p-2">Human Resource Manuals</h2>
-						<p class="leading-relaxed text-base pl-2 text-left">We have helped companies by reviewing their employee manuals to comply with Kenya labour laws.</p>
+						<h2 class="text-gray-300 text-lg font-medium p-2">Human resource manuals</h2>
+						<p class="leading-relaxed text-base pl-2 text-left">We have helped companies by reviewing their employee manuals to comply with Kenyan labour laws.</p>
 					</div>
 				</div>
 			
@@ -138,8 +138,8 @@
 					</svg>
 				</div>
 				<div class="flex-1">
-					<h2 class="text-gray-300 text-lg font-medium p-2">Employee Contracts</h2>
-					<p class="leading-relaxed text-base pl-2 text-left">We have helped companies setting up operations in Kenya by drawing for them employee contracts that are in line with the existing labour laws. This ensures that the company interest are protected from the onset and potential risks minimized during staff separation.</p>
+					<h2 class="text-gray-300 text-lg font-medium p-2">Employee contracts</h2>
+					<p class="leading-relaxed text-base pl-2 text-left">We have helped companies setting up operations in Kenya by drawing for them employee contracts that are in line with the existing labour laws. This ensures that the company interests are protected from the onset and potential risks minimized during staff separation.</p>
 				</div>
 			</div>
 			<div class="flex mb-10 lg:items-start items-center">
@@ -150,9 +150,9 @@
 					</svg>
 				</div>
 				<div class="flex-1">
-					<h2 class="text-gray-300 text-lg font-medium p-2">Novation Letters</h2>
+					<h2 class="text-gray-300 text-lg font-medium p-2">Novation letters</h2>
 					<p class="leading-relaxed text-base p-2 text-left">A novation letter is a legal document used in contract law to transfer the rights and obligations of one party in a contract to another party.  
-						Although this is a complex process, we have with the help of legal professionals managed to ensure that all parties' rights and interests were protected and that the novation was legally valid.</p>
+						Although this is a complex process, we have with the help of legal professionals, managed to ensure that all parties' rights and interests were protected and that the novation was legally valid.</p>
 				</div>
 			</div>
 			</div>
@@ -179,7 +179,7 @@
 			<details>
 				<summary class="ring-1 ring-amber-400 opacity-70 p-4 outline-none cursor-pointer mb-4 text-gray-300 font-bold rounded-lg">We are lagging behind in our CBA negotiations. Can you help?</summary>
 				<div class="px-6 pb-6 space-y-2">
-					<p>Yes, we can help you negotiate all your collective bargaining agreements (CBAs) and foster cordial relations with the Union shop stewards and Union officials.</p>
+					<p>Yes, we can help you negotiate all your collective bargaining agreements (CBAs) and foster cordial relations with the union shop stewards and union officials.</p>
 				</div>
 			</details>
 			<details>
@@ -264,7 +264,7 @@
 			<!-- <h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">Our team</h3> -->
 			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl text-gray-300">Our team</h1>
 			<p class="text-gray-300 my-4 lg:mt-12">
-				At the core of organization is a team of professionals with over 50 years of accumulated experience in diverse fields.
+				At the core of the organization are professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
 		</div>
 		<div class="lg:px-96 lg:py-14">
@@ -272,7 +272,7 @@
 				<li>
 					<div class="w-3/4 md:w-full md:h-5/6">
 						<img
-							src="/reao-small.jpg"
+							src="/renee.jpg"
 							class="w-full h-full object-cover object-center shadow-md rounded-md"
 							alt="founder - renee"
 						/>

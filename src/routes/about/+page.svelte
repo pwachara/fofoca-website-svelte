@@ -45,7 +45,7 @@
                                         </svg>
                                     </span>
                                     <span>
-                                        Our functions are typically split between a variety of people, who do not have the training and experience that an HR Consultant brings to the table.
+                                        Our functions are typically split between a variety of people, who do not have the training and experience that a HR Consultant brings to the table.
                                     </span>
                                 </p>
                                 <p class="p-6 flex flex-row">
