@@ -264,7 +264,7 @@
 			<!-- <h3 class="text-gray-200 text-4xl font-semibold lg:text-6xl">Our team</h3> -->
 			<h1 class="lg:p-4 text-4xl font-semibold leading-10 text-center lg:text-6xl text-gray-300">Our team</h1>
 			<p class="text-gray-300 my-4 lg:mt-12">
-				At the core of the organization are professionals with over 50 years of accumulated experience in diverse fields.
+				At the helm of the organization are professionals with over 50 years of accumulated experience in diverse fields.
 			</p>
 		</div>
 		<div class="lg:px-96 lg:py-14">
