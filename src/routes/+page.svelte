@@ -377,7 +377,7 @@
                 </div>
                 <div class="card h-fit max-w-6xl p-5 lg:p-12" id="form">
                     <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
-                    <form id="contactForm" action="https://formsubmit.co/f10fff0cf0d3a433102464e2c156509a" method="POST">
+                    <form id="contactForm" action="https://formsubmit.co/info@loka-advisory.com" method="POST">
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
