@@ -377,21 +377,21 @@
                 </div>
                 <div class="card h-fit max-w-6xl p-5 lg:p-12" id="form">
                     <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
-                    <form id="contactForm">
+                    <form id="contactForm" action="https://formsubmit.co/f10fff0cf0d3a433102464e2c156509a" method="POST">
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="name" class="pb-1 text-xs uppercase tracking-wider">Name</label>
-									<input type="text" id="name" autocomplete="given-name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="name">
+									<input type="text" id="name" name="name" autocomplete="given-name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0"required>
                                 </div>
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="email" class="pb-1 text-xs uppercase tracking-wider">Email</label>
-									<input type="email" id="email" autocomplete="email" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" name="email">
+									<input type="email" id="email" name="email" autocomplete="email" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" required>
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <label for="message" class="pb-1 text-xs uppercase tracking-wider">Message</label>
-								<textarea id="message" name="message" cols="30" rows="5" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0"></textarea>
+								<textarea id="message" name="message" cols="30" rows="5" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-gray-400 font-semibold text-black sm:mb-0" required></textarea>
                             </div>
                         </div>
                         <div class="text-center">
