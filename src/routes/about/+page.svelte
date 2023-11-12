@@ -24,7 +24,7 @@
             {#if tabSet === 0}
                 <section id="about-us" class="flex mx-auto p-5 xl:p-16 xl:mx-[15%] min-h-screen">
                     <div class="flex overflow-hidden rounded-md shadow-sm">
-                        <div class="grid xl:grid-cols-2">
+                        <div class="grid grid-cols-1 xl:grid-cols-2">
                             <div class="mx-auto">
                                 <img src="/at-work-touching-helmet.jpg" alt="at-work" class="p-4 xl:p-0 object-cover xl:h-2/3 rounded-lg" loading="lazy" />
                             </div>                        
@@ -68,13 +68,13 @@
                     </div>
                 </section>
 		    {:else if tabSet === 1}
-                <section id="vision" class="relative top-0 lg:left-[13%] min-h-screen min-w-full">
+                <section id="vision" class="relative top-0 lg:left-[20%] min-h-screen">
                     <img src="/lens.jpg" alt="lens" class="min-h-full w-full object-right-bottom"/>
-                        <div class="absolute top-0 lg:top-[12%] lg:left-[12%] flex flex-col bg-transparent">
+                        <div class="absolute top-0 lg:top-[5%] lg:left-[5%] flex flex-col bg-transparent">
                             <div class="flex flex-col justify-center p-4 lg:mt-0">
                                 <h3 class="flex text-3xl lg:text-6xl font-bold mx-[25%] text-[#fbbf24]">Our Vision</h3>
-                                <div class="lg:p-12 dark:text-gray-400 text-xl">
-                                    <p class="p-6 flex lg:text-3xl">
+                                <div class=" dark:text-gray-400 text-xl">
+                                    <p class="p-12 lg:text-3xl flex-wrap lg:leading-10 lg:max-w-[75%]">
                                         To be the most impactful, innovative and efficient HR Consulting partner.
                                     </p>
                                 </div>
