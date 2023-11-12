@@ -26,10 +26,9 @@
                     <div class="flex overflow-hidden rounded-md shadow-sm">
                         <div class="grid grid-cols-1 xl:grid-cols-2">
                             <div class="mx-auto">
-                                <img src="/at-work-touching-helmet.jpg" alt="at-work" class="p-4 xl:p-0 object-cover xl:h-2/3 rounded-lg" loading="lazy" />
+                                <img src="/at-work-touching-helmet.jpg" alt="at-work" class="p-4 xl:p-0 xl:h-2/3 rounded-lg" loading="lazy" />
                             </div>                        
-                            <!-- <img src="/at-work-touching-helmet.jpg" alt="" class="md:h-2/3 dark:bg-gray-500 object-cover" loading="lazy"> -->
-                            <div class="flex flex-col justify-center dark:bg-gray-900 -mt-36">
+                            <div class="flex flex-col justify-center dark:bg-gray-900 -mt-36 md:mt-0">
                                 <h3 class="flex text-2xl xl:text-3xl font-bold mx-auto">Our history</h3>
                                 <div class="dark:text-gray-400 text-xl">
                                     <p class="p-6 flex flex-row">
