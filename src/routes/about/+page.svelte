@@ -22,16 +22,16 @@
 	<svelte:fragment slot="panel">
         <div class="text-gray-400 min-h-screen">
             {#if tabSet === 0}
-                <section id="about-us" class="flex mx-auto p-10 xl:mx-[15%] min-h-screen">
+                <section id="about-us" class="flex mx-auto p-5 xl:p-16 xl:mx-[15%] min-h-screen">
                     <div class="flex overflow-hidden rounded-md shadow-sm">
-                        <div class="flex flex-col">
-                            <div class="">
-                                <img src="/at-work-touching-helmet.jpg" alt="at-work" loading="lazy" class="h-64 w-64" />
+                        <div class="grid xl:grid-cols-2">
+                            <div class="mx-auto">
+                                <img src="/at-work-touching-helmet.jpg" alt="at-work" class="p-4 xl:p-0 object-cover xl:h-2/3 rounded-lg" loading="lazy" />
                             </div>                        
                             <!-- <img src="/at-work-touching-helmet.jpg" alt="" class="md:h-2/3 dark:bg-gray-500 object-cover" loading="lazy"> -->
-                            <div class="flex flex-col justify-center p-4 dark:bg-gray-900 -mt-36">
-                                <h3 class="flex text-3xl font-bold mt-4 md:mt-0 mx-auto">Our history</h3>
-                                <div class="lg:p-12 dark:text-gray-400 text-xl">
+                            <div class="flex flex-col justify-center dark:bg-gray-900 -mt-36">
+                                <h3 class="flex text-2xl xl:text-3xl font-bold mx-auto">Our history</h3>
+                                <div class="dark:text-gray-400 text-xl">
                                     <p class="p-6 flex flex-row">
                                         <span class="p-2 text-[#fbbf24]">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
