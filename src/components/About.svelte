@@ -1,7 +1,7 @@
-<section id="about-us" class="flex mx-auto p-5 min-h-screen">
+<section id="about-us" class="flex mx-auto p-5">
     <div class="flex overflow-hidden rounded-md shadow-sm">
-        <div class="grid grid-cols-1 md:grid-cols-2 md:mx-48 lg:mx-64 md:h-2/3 lg:h-3/4">
-            <div class="mx-auto md:h-2/3 lg:h-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:mx-64 md:h-2/3 lg:h-3/4">
+            <div class="md:h-2/4 lg:h-full">
                 <img src="/at-work-touching-helmet.jpg" alt="at-work" class="md:h-2/3 lg:h-3/4 rounded-lg" loading="lazy" />
             </div>                        
             <div class="flex flex-col dark:bg-gray-900 md:h-2/3 lg:h-3/4 justify-start ">

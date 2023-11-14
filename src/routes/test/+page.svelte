@@ -14,18 +14,26 @@
 
 </script>
 
-<section>
+<div class="flex flex-col md:flex-row">
     <Tabs {items} {activeItem} on:tabChange={ tabChange }/>
     {#if activeItem === "About"}
-        <About />
+        <div class="min-w-full mt-4">
+            <About />
+        </div>
     {:else if activeItem === "Vision"}
-        <Vision />
+        <div class="min-w-full mt-4">
+            <Vision />
+        </div>
     {:else if activeItem === "Values"}
-        <Values />
+        <div class="min-w-full mt-4">
+            <Values />
+        </div>
     {:else if activeItem === "Clients"}
-        <Clients />
+        <div class="min-w-full mt-4 md:p-40">
+            <Clients />
+        </div>
     {/if}
-</section>
+</div>
 
 <style>
 

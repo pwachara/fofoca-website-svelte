@@ -17,7 +17,7 @@
 
 </script>
 
-<div class="tabs min-h-screen">
+<div class="tabs p-4">
     <ul class="flex flex-row lg:flex-col lg:gap-5 lg:space-y-3 mx-auto text-gray-400">
         {#each items as item}
             <!-- svelte-ignore a11y-click-events-have-key-events -->
