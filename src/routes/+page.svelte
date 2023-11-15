@@ -1,107 +1,135 @@
-<section id="home" class="text-gray-400 min-h-screen bg-gradient-to-r from-[#060A09] to-[#434C5A] mt-10 lg:-mt-10">
-	<div class="container grid grid-cols-1 lg:grid-cols-2 lg:gap-4 justify-center mx-auto">
-		<div class="flex flex-col justify-center p-4 lg:p-6 text-center rounded-sm lg:max-w-2xl lg:text-left">
-		
-			<h1 class="text-4xl font-bold leading-10 lg:text-6xl">We have the
-				<span class="text-[#fbbf24]">tools</span> to support your <span class="text-[#fbbf24]">
-					Human Resource</span> functions.
+<section id="home" class="relative bg-[url(/dance-floor.jpg)] bg-cover bg-right-top bg-no-repeat object-left-top">
+  <div class="max-w-screen lg:ml-96 min-h-screen lg:p-32">
+		<div class="max-w-xl text-center">
+			<h1 class="text-5xl text-black font-extrabold sm:text-6xl">
+				Home food
+				<strong class="block font-extrabold text-[#a91012]">
+					away from home.
+				</strong>
 			</h1>
-			<p class="mt-6 mb-8 text-3xl font-bold sm:mb-12 text-gray-600">
-				Recruit<span class="text-5xl text-[#fbbf24]">.</span>
-				Train<span class="text-5xl text-[#fbbf24]">.</span>
-				Retain<span class="text-5xl text-[#fbbf24]">.</span>
+
+			<p class="flex justify-center text-white mt-4 max-w-lg sm:text-xl/relaxed">
+				Enjoy our delicious food with friends and family as you catch up with the day's events.
 			</p>
-			<div class="flex flex-col items-center justify-center lg:flex-row lg:space-x-4 lg:justify-start">
-				<a rel="noopener noreferrer" href="#contact" class="px-8 py-3 text-lg font-semibold rounded bg-[#fbbf24] text-gray-900">Contact Us</a>
+
+			<div class="mt-8 flex text-center justify-center">
+				<a href="#nothing-here" class="w-full rounded bg-[#a91012] px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
+					Order now
+				</a>
 			</div>
 		</div>
-		<div class="flex items-center justify-center lg:p-24 p-4">
-			<img src="tools.jpg" alt="tools" class="transform rotate-90 object-contain h-2/3 w-11/12 lg:h-full" loading="lazy">
-		</div>
-	</div>
+  </div>
 </section>
 
-<section id="services" class="bg-gray-800 text-gray-100 min-h-screen">
-	<div class="px-4 py-8 mx-auto max-w-7xl lg:px-8">
-		<div class="max-w-3xl mx-auto text-center">
-			<h2 class="text-3xl font-extrabold lg:text-4xl">All the services you want</h2>
-			<p class="mt-4 text-lg text-gray-400">Not only do we provide advice, but also aid in the implementation of the solutions proposed by us.</p>
-		</div>
-		<dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-[#f9d900]">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">We build HR infrastructures for start ups</dt>
-					<dd class="mt-2 text-gray-400">We can effectively support your business needs from day 1.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-[#f9d900]">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">HR policy design</dt>
-					<dd class="mt-2 text-gray-400">We design policies that are in alignment with your company's culture and in conformity with the country's employment and labour laws.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-[#f9d900]">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Employee satisfaction survey</dt>
-					<dd class="mt-2 text-gray-400">Building a better work environment begins with communicating with employees and understanding their needs.  As an impartial third party, we can gather candid feedback from your employees through one-on-one interviews and online/paper employee surveys.  Further, based on the findings we will provide appropriate recommendations.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-[#f9d900]">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Recruitment</dt>
-					<dd class="mt-2 text-gray-400">We are experienced in sourcing and recruiting qualified candidates who are a good fit for your company.  We have a rich database of both white and blue collar workers.  We also provide psychometric assessments at an affordable fee.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-[#f9d900]">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Training and skills development</dt>
-					<dd class="mt-2 text-gray-400">We conduct skills audits and inform management on the skills gaps discovered via the audit and identify trainings to bridge those gaps.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-amber-400">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Work permit processing</dt>
-					<dd class="mt-2 text-gray-400">We assist companies acquire special passes and work permits for their expatriate staff.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-amber-400">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Labour outsourcing</dt>
-					<dd class="mt-2 text-gray-400">We can manage all your blue collar workers and non-critical white collar workers directly under our company.</dd>
-				</div>
-			</div>
-			<div class="flex">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-amber-400">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-				</svg>
-				<div class="ml-3">
-					<dt class="text-lg font-medium">Collective bargaining agreements</dt>
-					<dd class="mt-2 text-gray-400">We will help you negotiate all your collective bargaining agreements (CBAs) and foster cordial relations with the union shop stewards and union officials.</dd>
-				</div>
-			</div>
-		</dl>
-	</div>
+<section id="events" class="flex flex-col lg:flex-row gap-10 bg-gray-800 text-gray-100 min-h-screen">
+	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+		<img
+			alt="Office"
+			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+			class="h-56 w-56 object-cover"
+		/>
+
+		<div class="bg-white p-4 sm:p-6">
+			<time datetime="2022-10-10" class="block text-xs text-gray-500">
+			10th Oct 2022
+			</time>
+
+			<a href="#one">
+			<h3 class="mt-0.5 text-lg text-gray-900">
+				How to position your furniture for positivity
+			</h3>
+			</a>
+
+			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+			Molestias explicabo corporis voluptatem?
+			</p>
+  		</div>
+	</article>
+	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+		<img
+			alt="Office"
+			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+			class="h-56 w-full object-cover"
+		/>
+
+		<div class="bg-white p-4 sm:p-6">
+			<time datetime="2022-10-10" class="block text-xs text-gray-500">
+			10th Oct 2022
+			</time>
+
+			<a href="#two">
+			<h3 class="mt-0.5 text-lg text-gray-900">
+				How to position your furniture for positivity
+			</h3>
+			</a>
+
+			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+			Molestias explicabo corporis voluptatem?
+			</p>
+  		</div>
+	</article>
+	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+		<img
+			alt="Office"
+			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+			class="h-56 w-full object-cover"
+		/>
+
+		<div class="bg-white p-4 sm:p-6">
+			<time datetime="2022-10-10" class="block text-xs text-gray-500">
+			10th Oct 2022
+			</time>
+
+			<a href="#three">
+			<h3 class="mt-0.5 text-lg text-gray-900">
+				How to position your furniture for positivity
+			</h3>
+			</a>
+
+			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+			Molestias explicabo corporis voluptatem?
+			</p>
+  		</div>
+	</article>
+	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+		<img
+			alt="Office"
+			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+			class="h-56 w-full object-cover"
+		/>
+
+		<div class="bg-white p-4 sm:p-6">
+			<time datetime="2022-10-10" class="block text-xs text-gray-500">
+			10th Oct 2022
+			</time>
+
+			<a href="#four">
+			<h3 class="mt-0.5 text-lg text-gray-900">
+				How to position your furniture for positivity
+			</h3>
+			</a>
+
+			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+			Molestias explicabo corporis voluptatem?
+			</p>
+  		</div>
+	</article>
 </section>
 
 <section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
