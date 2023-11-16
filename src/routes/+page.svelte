@@ -1,135 +1,111 @@
 <section id="home" class="relative bg-[url(/dance-floor.jpg)] bg-cover bg-right-top bg-no-repeat object-left-top">
-  <div class="max-w-screen lg:ml-96 min-h-screen lg:p-32">
-		<div class="max-w-xl text-center">
-			<h1 class="text-5xl text-black font-extrabold sm:text-6xl">
-				Home food
-				<strong class="block font-extrabold text-[#a91012]">
-					away from home.
-				</strong>
-			</h1>
-
-			<p class="flex justify-center text-white mt-4 max-w-lg sm:text-xl/relaxed">
-				Enjoy our delicious food with friends and family as you catch up with the day's events.
-			</p>
-
-			<div class="mt-8 flex text-center justify-center">
-				<a href="#nothing-here" class="w-full rounded bg-[#a91012] px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
-					Order now
-				</a>
-			</div>
+	<div class="bg-black/10">
+		<div class=" max-w-screen lg:ml-96 min-h-screen lg:p-32">
+			  <div class="max-w-xl text-center">
+				  <h1 class="pt-10 lg:pt-0 text-5xl text-black font-extrabold sm:text-6xl">
+					  Home food
+					  <strong class="block font-extrabold text-[#a91012]">
+						  away from home.
+					  </strong>
+				  </h1>
+	  
+				  <p class="px-10 lg:px-0 flex justify-center text-white mt-4 max-w-lg sm:text-xl/relaxed">
+					  Enjoy our delicious food with friends and family as you catch up with the day's events.
+				  </p>
+	  
+				  <div class="mt-8 flex text-center justify-center">
+					  <a href="#nothing-here" class="w-full rounded bg-[#a91012] px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
+						  Order now
+					  </a>
+				  </div>
+			  </div>
 		</div>
-  </div>
+	</div>
 </section>
 
-<section id="events" class="flex flex-col lg:flex-row gap-10 bg-gray-800 text-gray-100 min-h-screen">
-	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-		<img
-			alt="Office"
-			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-			class="h-56 w-56 object-cover"
-		/>
+<section id="services" class="flex flex-col  bg-gray-800 text-gray-100 min-h-screen pt-10">
+	<h3 class="flex text-6xl text-[#a91012] mx-auto">Catering Services</h3>
+	<div class="flex flex-col p-36 lg:flex-row gap-40 min-h-screen">	
+		<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+			<img
+				alt="Office"
+				src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+				class="h-56 w-full object-cover"
+			/>
+	
+			<div class="bg-white p-4 sm:p-6">
+				<div class="flex text-xs text-[#a91012]">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16">
+  						<path d="M15 1.784l-.796.796a1.125 1.125 0 101.591 0L15 1.784zM12 1.784l-.796.796a1.125 1.125 0 101.591 0L12 1.784zM9 1.784l-.796.796a1.125 1.125 0 101.591 0L9 1.784zM9.75 7.547c.498-.02.998-.035 1.5-.042V6.75a.75.75 0 011.5 0v.755c.502.007 1.002.021 1.5.042V6.75a.75.75 0 011.5 0v.88l.307.022c1.55.117 2.693 1.427 2.693 2.946v1.018a62.182 62.182 0 00-13.5 0v-1.018c0-1.519 1.143-2.829 2.693-2.946l.307-.022v-.88a.75.75 0 011.5 0v.797zM12 12.75c-2.472 0-4.9.184-7.274.54-1.454.217-2.476 1.482-2.476 2.916v.384a4.104 4.104 0 012.585.364 2.605 2.605 0 002.33 0 4.104 4.104 0 013.67 0 2.605 2.605 0 002.33 0 4.104 4.104 0 013.67 0 2.605 2.605 0 002.33 0 4.104 4.104 0 012.585-.364v-.384c0-1.434-1.022-2.7-2.476-2.917A49.138 49.138 0 0012 12.75zM21.75 18.131a2.604 2.604 0 00-1.915.165 4.104 4.104 0 01-3.67 0 2.604 2.604 0 00-2.33 0 4.104 4.104 0 01-3.67 0 2.604 2.604 0 00-2.33 0 4.104 4.104 0 01-3.67 0 2.604 2.604 0 00-1.915-.165v2.494c0 1.036.84 1.875 1.875 1.875h15.75c1.035 0 1.875-.84 1.875-1.875v-2.494z" />
+					</svg>
+				</div>
+					<h3 class="mt-0.5 text-lg text-gray-900 font-semibold">
+						Birthday Parties
+					</h3>
+				<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+				dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+				sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+				voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+				Molestias explicabo corporis voluptatem?
+				</p>
+			  </div>
+		</article>
+		<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+			<img
+				alt="Office"
+				src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+				class="h-56 w-full object-cover"
+			/>
+	
+			<div class="bg-white p-4 sm:p-6">
+				<div class="block text-xs text-[#a91012]">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16">
+  						<path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
+  						<path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
+  						<path d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
+					</svg>
+				</div>
+				<h3 class="mt-0.5 text-lg text-gray-900 font-semibold">
+					Graduation Parties
+				</h3>
+				<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+				dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+				sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+				voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+				Molestias explicabo corporis voluptatem?
+				</p>
+			  </div>
+		</article>
+		<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+			<img
+				alt="Office"
+				src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+				class="h-56 w-full object-cover"
+			/>
+	
+			<div class="bg-white p-4 sm:p-6">
+				<div class="block text-xs text-[#a91012]">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16">
+  						<path d="M9.375 3a1.875 1.875 0 000 3.75h1.875v4.5H3.375A1.875 1.875 0 011.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0112 2.753a3.375 3.375 0 015.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 10-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3zM11.25 12.75H3v6.75a2.25 2.25 0 002.25 2.25h6v-9zM12.75 12.75v9h6.75a2.25 2.25 0 002.25-2.25v-6.75h-9z" />
+					</svg>
+				</div>
+				<h3 class="mt-0.5 text-lg text-gray-900 font-semibold">
+					Office Parties
+				</h3>
 
-		<div class="bg-white p-4 sm:p-6">
-			<time datetime="2022-10-10" class="block text-xs text-gray-500">
-			10th Oct 2022
-			</time>
-
-			<a href="#one">
-			<h3 class="mt-0.5 text-lg text-gray-900">
-				How to position your furniture for positivity
-			</h3>
-			</a>
-
-			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-			Molestias explicabo corporis voluptatem?
-			</p>
-  		</div>
-	</article>
-	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-		<img
-			alt="Office"
-			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-			class="h-56 w-full object-cover"
-		/>
-
-		<div class="bg-white p-4 sm:p-6">
-			<time datetime="2022-10-10" class="block text-xs text-gray-500">
-			10th Oct 2022
-			</time>
-
-			<a href="#two">
-			<h3 class="mt-0.5 text-lg text-gray-900">
-				How to position your furniture for positivity
-			</h3>
-			</a>
-
-			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-			Molestias explicabo corporis voluptatem?
-			</p>
-  		</div>
-	</article>
-	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-		<img
-			alt="Office"
-			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-			class="h-56 w-full object-cover"
-		/>
-
-		<div class="bg-white p-4 sm:p-6">
-			<time datetime="2022-10-10" class="block text-xs text-gray-500">
-			10th Oct 2022
-			</time>
-
-			<a href="#three">
-			<h3 class="mt-0.5 text-lg text-gray-900">
-				How to position your furniture for positivity
-			</h3>
-			</a>
-
-			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-			Molestias explicabo corporis voluptatem?
-			</p>
-  		</div>
-	</article>
-	<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-		<img
-			alt="Office"
-			src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-			class="h-56 w-full object-cover"
-		/>
-
-		<div class="bg-white p-4 sm:p-6">
-			<time datetime="2022-10-10" class="block text-xs text-gray-500">
-			10th Oct 2022
-			</time>
-
-			<a href="#four">
-			<h3 class="mt-0.5 text-lg text-gray-900">
-				How to position your furniture for positivity
-			</h3>
-			</a>
-
-			<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-			dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-			sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-			voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-			Molestias explicabo corporis voluptatem?
-			</p>
-  		</div>
-	</article>
+	
+				<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+				dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+				sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+				voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+				Molestias explicabo corporis voluptatem?
+				</p>
+			  </div>
+		</article>
+	</div>
 </section>
 
 <section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
