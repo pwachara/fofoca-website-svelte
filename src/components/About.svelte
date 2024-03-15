@@ -5,7 +5,7 @@
                 <img src="/at-work-touching-helmet.jpg" alt="at-work" class="md:h-2/3 lg:h-3/4 rounded-lg" loading="lazy" />
             </div>                        
             <div class="flex flex-col dark:bg-gray-900 md:h-2/3 lg:h-3/4 justify-start ">
-                <h3 class="flex text-2xl xl:text-3xl font-bold mx-auto">Our history</h3>
+                <h3 class="flex text-2xl xl:text-3xl font-bold mx-auto">Nossa história</h3>
                 <div class="dark:text-gray-400 text-xl">
                     <p class="p-6 flex flex-row">
                         <span class="p-2 text-[#fbbf24]">
@@ -14,7 +14,7 @@
                             </svg>
                         </span>
                         <span>
-                            Loka Advisory Services Limited is a HR Advisory and Consultancy services company that was formed in Kenya to ease the burden and step in, when no HR expertise exists to handle your continually needed HR functions.  
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, est ea odit eius laborum ullam dolores optio hic recusandae tenetur! Aliquid repellat incidunt minima, saepe consequuntur sed excepturi sunt totam.  
                         </span>
                     </p>
                     <p class="p-6 flex flex-row">
@@ -24,7 +24,7 @@
                             </svg>
                         </span>
                         <span>
-                            Our functions are typically split between a variety of people, who do not have the training and experience that a HR Consultant brings to the table.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas nihil tempore suscipit eveniet, est ut aliquid, nesciunt praesentium accusamus magnam reprehenderit excepturi repellat libero, ducimus modi officiis doloremque ullam.
                         </span>
                     </p>
                     <p class="p-6 flex flex-row">
@@ -34,7 +34,7 @@
                             </svg>
                         </span>
                         <span>
-                            Loka Advisory lessens the burden for the employer by helping them maximize efficiency of employees leading to higher productivity levels.  Your business will benefit from the expertise and experience of Human Resource Consultants without the cost of paying a full-time salary.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur optio quo aut nulla commodi minima reiciendis id? Debitis corrupti eum dolores quasi, quaerat expedita cumque, labore aliquam, commodi voluptatibus sed!
                         </span>
                     </p>
                 </div>

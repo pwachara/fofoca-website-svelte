@@ -90,28 +90,31 @@ const drawerSettings: DrawerSettings = {
 				<div class="flex gap-5 mr-16">
 				<ul class="list gap-5 hidden lg:flex mr-5">
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#home"} href="/#home" aria-label="home" >Home</a>
+						<a class:active={ $page.url.hash === "#home"} href="/#home" aria-label="home" >Início</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#services"} href="/#services" aria-label="services" >Services</a>
+						<a class:active={ $page.url.hash === "#services"} href="/#services" aria-label="services" >Serviços</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#engagements"} href="/#engagements" aria-label="engagements">Engagements</a>
+						<a class:active={ $page.url.hash === "#engagements"} href="/#engagements" aria-label="engagements">Galeria</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#faqs"} href="/#faqs" aria-label="faqs">FAQs</a>
+						<a class:active={ $page.url.hash === "#menu"} href="/#menu" aria-label="menu">cardápio</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#testimonials"} href="/#testimonials" aria-label="testimonials">Testimonials</a>
+						<a class:active={ $page.url.hash === "#events"} href="/#events" aria-label="events">Eventos</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#team"} href="/#team" aria-label="team">Team</a>
+						<a class:active={ $page.url.hash === "#faqs"} href="/#faqs" aria-label="faqs">Perguntas Frequentes</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.hash === "#contact"} href="/#contact" aria-label="contact">Contact Us</a>
+						<a class:active={ $page.url.hash === "#testimonials"} href="/#testimonials" aria-label="testimonials">Testemunhos</a>
 					</li>
 					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
-						<a class:active={ $page.url.pathname === "/about"} href="/about" aria-label="about">About</a>
+						<a class:active={ $page.url.hash === "#contact"} href="/#contact" aria-label="contact">Contate-nos</a>
+					</li>
+					<li class=" hover:bg-rose-200 hover:rounded-md hover:p-1 hover:cursor-pointer">
+						<a class:active={ $page.url.pathname === "/about"} href="/about" aria-label="about">Sobre Nós</a>
 					</li>
 				</ul>
 				<a
@@ -120,7 +123,7 @@ const drawerSettings: DrawerSettings = {
 					target="_blank"
 					rel="noreferrer"
 				>
-					Staff Email
+					E-mail
 				</a>
 				<a href="/#home" class="lg:hidden">
 					<img src="./fofoca-logo-abbr.png" alt="logo" class="ml-4 h-16 lg:w-20 lg:ml-16 hover:cursor-pointer" />

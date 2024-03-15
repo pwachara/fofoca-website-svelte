@@ -1,21 +1,103 @@
+<script>
+	// @ts-ignore
+	import Carousel from 'svelte-carousel'
+	import { browser } from '$app/environment'
+	import { onMount } from 'svelte';
+
+/** @type {HTMLElement} */
+  let nextDom;
+  let prevDom;
+  let carouselDom;
+  let sliderDom;
+  let thumbnailBorderDom;
+  let thumbnailItemsDom;
+  let timeDom;
+  //let emptyDiv = document.createElement('span')
+
+  onMount(() => {
+    // Get references to DOM elements
+    nextDom = document.getElementById('next')
+    prevDom = document.getElementById('prev')
+    carouselDom = document.querySelector('.carousel')
+    sliderDom = carouselDom?.querySelector('.carousel .list')
+    thumbnailBorderDom = document.querySelector('.carousel .thumbnail')
+    thumbnailItemsDom = thumbnailBorderDom?.querySelectorAll('.item')
+    timeDom = document.querySelector('.carousel .time')
+
+    // Append first thumbnail item
+    thumbnailBorderDom.appendChild(thumbnailItemsDom[0])
+
+    // Set up click event listeners
+    nextDom.onclick = () => showSlider('next')
+    prevDom.onclick = () => showSlider('prev')
+
+    // Set up automatic sliding
+    let runTimeOut;
+    let runNextAuto = setTimeout(() => {
+        nextDom.click()
+
+    }, 7000)
+
+    function showSlider(type) {
+      let sliderItemsDom = sliderDom.querySelectorAll('.carousel .list .item')
+      let thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item')
+
+      if (type === 'next') {
+        sliderDom.appendChild(sliderItemsDom[0]);
+        thumbnailBorderDom.appendChild(thumbnailItemsDom[0])
+        carouselDom.classList.add('next')
+      } else {
+        sliderDom.prepend(sliderItemsDom[sliderItemsDom.length - 1])
+        thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1])
+        carouselDom.classList.add('prev')
+      }
+
+      clearTimeout(runTimeOut);
+      	runTimeOut = setTimeout(() => {
+        carouselDom.classList.remove('next')
+        carouselDom.classList.remove('prev')
+      }, 3000);
+
+      clearTimeout(runNextAuto);
+      	runNextAuto = setTimeout(() => {
+        nextDom.click()
+      }, 7000)
+    }
+  });
+
+	//For the footer date
+	let thisYear = new Date().getFullYear().toString()	
+</script>
+
 <section id="home" class="relative bg-[url(/dance-floor.jpg)] bg-cover bg-right-top bg-no-repeat object-left-top">
-	<div class="bg-black/10">
+	<div class="bg-black/50 lg:bg-black/10 ">
 		<div class=" max-w-screen lg:ml-96 min-h-screen lg:p-32">
 			  <div class="max-w-xl text-center">
-				  <h1 class="pt-10 lg:pt-0 text-5xl text-black font-extrabold sm:text-6xl">
+				  <div class="pt-10 lg:pt-0 text-white lg:text-[#a91012] font-extrabold ">
+						<h1 class="text-5xl sm:text-9xl">
+							Comida Caseira
+						</h1>
+					  <p class="text-black text-5xl sm:text-6xl">
+						  fora de casa.
+					  </p>
+				  </div>
+				  <!-- <h1 class="pt-10 lg:pt-0 text-5xl text-black font-extrabold sm:text-6xl">
 					  Home food
 					  <strong class="block font-extrabold text-[#a91012]">
 						  away from home.
 					  </strong>
-				  </h1>
+				  </h1> -->
 	  
 				  <p class="px-10 lg:px-0 flex justify-center text-white mt-4 max-w-lg sm:text-xl/relaxed">
-					  Enjoy our delicious food with friends and family as you catch up with the day's events.
+					  Desfrute de nossa deliciosa comida com amigos e familiares enquanto acompanha os acontecimentos do dia.
 				  </p>
+				  <!-- <p class="px-10 lg:px-0 flex justify-center text-white mt-4 max-w-lg sm:text-xl/relaxed">
+					  Enjoy our delicious food with friends and family as you catch up with the day's events.
+				  </p> -->
 	  
 				  <div class="mt-8 flex text-center justify-center">
 					  <a href="#nothing-here" class="w-full rounded bg-[#a91012] px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
-						  Order now
+						  Peça agora
 					  </a>
 				  </div>
 			  </div>
@@ -24,7 +106,7 @@
 </section>
 
 <section id="services" class="flex flex-col  bg-gray-800 text-gray-100 min-h-screen pt-10">
-	<h3 class="flex text-6xl text-[#a91012] mx-auto">Catering Services</h3>
+	<h3 class="flex text-6xl text-[#a91012] mx-auto">Serviços de catering</h3>
 	<div class="flex flex-col p-36 lg:flex-row gap-40 min-h-screen">	
 		<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
 			<img
@@ -108,60 +190,138 @@
 	</div>
 </section>
 
-<section id="engagements" class="text-gray-300 bg-gray-900 min-h-screen">
-	<div class="px-4 py-8 mx-auto max-w-7xl lg:px-8">
-		<div class="max-w-3xl mx-auto text-center pt:2 lg:pt-16 mb-5">
-			<h2 class="text-3xl font-extrabold lg:text-4xl">Previous enagagements</h2>
-			<p class="mt-4 text-lg text-gray-400">
-				Each client’s needs are unique.  Therefore, the solutions developed are not “off the shelf”, but ones that are tailored to each client’s unique requirements and aligned with their specific business objectives.
-			</p>
-		</div>
-		<div class="container p-2 lg:p-12 mx-auto flex flex-wrap ">
-			<div class="lg:w-1/2 w-full  rounded-lg overflow-hidden p-4 lg:p-24 mb-5">
-				<img alt="feature" class="object-cover h-full w-full transform scale-125 rounded-lg" src="/at-work.jpg">
-			</div>
-			<div class="flex flex-wrap lg:py-6 lg:w-1/2 lg:pl-6 lg:text-left text-center">
-				<div class="flex mb-10 lg:items-start items-center">
-					<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900]">
-						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-							<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-							<path d="M22 4L12 14.01l-3-3"></path>
-						</svg>
-					</div>
-					<div class="flex-1">
-						<h2 class="text-gray-300 text-lg font-medium p-2">Human resource manuals</h2>
-						<p class="leading-relaxed text-base pl-2 text-left">We have helped companies by reviewing their employee manuals to comply with Kenyan labour laws.</p>
-					</div>
-				</div>
-			
-			<div class="flex mb-10 lg:items-start items-center">
-				<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900]">
-					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-					<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-					<path d="M22 4L12 14.01l-3-3"></path>
-					</svg>
-				</div>
-				<div class="flex-1">
-					<h2 class="text-gray-300 text-lg font-medium p-2">Employee contracts</h2>
-					<p class="leading-relaxed text-base pl-2 text-left">We have helped companies setting up operations in Kenya by drawing for them employee contracts that are in line with the existing labour laws. This ensures that the company interests are protected from the onset and potential risks minimized during staff separation.</p>
-				</div>
-			</div>
-			<div class="flex mb-10 lg:items-start items-center">
-				<div class="w-12 h-12 hidden lg:inline-flex items-center justify-center rounded-full bg-gray-800 text-[#f9d900] mb-0">
-					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-						<path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-						<path d="M22 4L12 14.01l-3-3"></path>
-					</svg>
-				</div>
-				<div class="flex-1">
-					<h2 class="text-gray-300 text-lg font-medium p-2">Novation letters</h2>
-					<p class="leading-relaxed text-base p-2 text-left">A novation letter is a legal document used in contract law to transfer the rights and obligations of one party in a contract to another party.  
-						Although this is a complex process, we have with the help of legal professionals, managed to ensure that all parties' rights and interests were protected and that the novation was legally valid.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
+<section id="engagements" class=" min-h-screen flex mx-auto lg:pr-48">
+
+	<h1 class="h1">Engagements section</h1>
+  
+</section>
+
+<section id="menu" class=" min-h-screen flex mx-auto lg:px-24">
+	<!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="./img1.jpg" alt="1">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img2.jpg" alt="2">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img3.jpg" alt="3">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img4.jpg" alt="4">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="./img1.jpg" alt="1">
+                <!-- <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div> -->
+            </div>
+            <div class="item">
+                <img src="./img2.jpg" alt="2">
+                <!-- <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div> -->
+            </div>
+            <div class="item">
+                <img src="./img3.jpg" alt="3">
+                <!-- <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div> -->
+            </div>
+            <div class="item">
+                <img src="./img4.jpg" alt="4">
+                <div class="content">
+                    <!-- <div class="title">
+                        Name Slider
+                    </div> -->
+                    <!-- <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- next prev -->
+
+        <div class="arrows">
+            <!-- <button id="prev">Prev</button>
+            <button id="next">Next</button> -->
+            <button class="button" id="prev">Prev</button>
+            <button class="button" id="next">Next</button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
 </section>
 
 <section id="faqs" class="bg-gray-800 text-gray-300 min-h-screen">
@@ -423,6 +583,7 @@
 </section>
 
 <style>
+
 	details[open] summary ~ * {
 		animation: sweep 0.3s ease-in-out;
 	}
@@ -435,8 +596,291 @@
 			opacity: 1;margin-top: 0;
 		}
 	}
-</style>
 
-<script>
-	let thisYear = new Date().getFullYear().toString()
-</script>
+	/* carousel */
+.carousel{
+    height: 100vh;
+    margin-top: -50px;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+.carousel .list .item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.carousel .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel .list .item .content{
+    position: absolute;
+    top: 20%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
+}
+.carousel .list .item .author{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.carousel .list .item .title,
+.carousel .list .item .topic{
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+.carousel .list .item .topic{
+    color: #f1683a;
+}
+.carousel .list .item .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+}
+.carousel .list .item .buttons button{
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.carousel .list .item .buttons button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #eee;
+}
+/* thumbail */
+.thumbnail{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+}
+.thumbnail .item{
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+}
+.thumbnail .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.thumbnail .item .content{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+.thumbnail .item .content .title{
+    font-weight: 500;
+}
+.thumbnail .item .content .description{
+    font-weight: 300;
+}
+/* arrows */
+.arrows{
+    position: absolute;
+    top: 80%;
+    right: 52%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.arrows button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eee4;
+    border: none;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    transition: .5s;
+}
+.arrows button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* animation */
+.carousel .list .item:nth-child(1){
+    z-index: 1;
+}
+
+/* animation text in first item */
+
+.carousel .list .item:nth-child(1) .content .author,
+.carousel .list .item:nth-child(1) .content .title,
+.carousel .list .item:nth-child(1) .content .topic,
+.carousel .list .item:nth-child(1) .content .des,
+.carousel .list .item:nth-child(1) .content .buttons
+{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s 1s linear 1 forwards;
+}
+@keyframes showContent{
+    to{
+        transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+.carousel .list .item:nth-child(1) .content .title{
+    animation-delay: 1.2s!important;
+}
+.carousel .list .item:nth-child(1) .content .topic{
+    animation-delay: 1.4s!important;
+}
+.carousel .list .item:nth-child(1) .content .des{
+    animation-delay: 1.6s!important;
+}
+.carousel .list .item:nth-child(1) .content .buttons{
+    animation-delay: 1.8s!important;
+}
+/* create animation when next click */
+.carousel.next .list .item:nth-child(1) img{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 30px;
+    animation: showImage .5s linear 1 forwards;
+}
+@keyframes showImage{
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+.carousel.next .thumbnail .item:nth-last-child(1){
+    overflow: hidden;
+    animation: showThumbnail .5s linear 1 forwards;
+}
+.carousel.prev .list .item img{
+    z-index: 100;
+}
+@keyframes showThumbnail{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+}
+
+/* .carousel.next .thumbnail{
+    animation: effectNext .5s linear 1 forwards;
+} */
+
+@keyframes effectNext{
+    from{
+        transform: translateX(150px);
+    }
+}
+
+/* running time */
+
+.carousel .time{
+    position: absolute;
+    z-index: 1000;
+    width: 0%;
+    height: 3px;
+    background-color: #f1683a;
+    left: 0;
+    top: 0;
+}
+
+/* .carousel.next .time,
+.carousel.prev .time{
+    animation: runningTime 3s linear 1 forwards;
+} */
+
+@keyframes runningTime{
+    from{ width: 100%}
+    to{width: 0}
+}
+
+
+/* prev click */
+
+.carousel.prev .list .item:nth-child(2){
+    z-index: 2;
+}
+
+.carousel.prev .list .item:nth-child(2) img{
+    animation: outFrame 0.5s linear 1 forwards;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+@keyframes outFrame{
+    to{
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 20px;
+    }
+}
+
+.carousel.prev .thumbnail .item:nth-child(1){
+    overflow: hidden;
+    opacity: 0;
+    animation: showThumbnail .5s linear 1 forwards;
+}
+.carousel.next .arrows button,
+.carousel.prev .arrows button{
+    pointer-events: none;
+}
+.carousel.prev .list .item:nth-child(2) .content .author,
+.carousel.prev .list .item:nth-child(2) .content .title,
+.carousel.prev .list .item:nth-child(2) .content .topic,
+.carousel.prev .list .item:nth-child(2) .content .des,
+.carousel.prev .list .item:nth-child(2) .content .buttons
+{
+    animation: contentOut 1.5s linear 1 forwards!important;
+}
+
+@keyframes contentOut{
+    to{
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 678px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+		padding-left: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size: 30px;
+    }
+}
+</style>
